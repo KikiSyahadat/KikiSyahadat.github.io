@@ -1,13 +1,13 @@
-- title: Home
+- title: Beranda
   href: index.html
 
-- title: About
+- title: Tentang
   href: about.html
 
-- title: Posts
+- title: Tulisan
   href: list/posts.html
 
-- title: Documentation
+- title: Projek
   href: list/projects.html
 
 
