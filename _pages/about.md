@@ -3,9 +3,6 @@ layout: defaults/page
 permalink: about.html
 narrow: true
 title: Tentang
-images:
-  - https://kikisyahadat.github.io/theme/img/dana.webp
-  - https://kikisyahadat.github.io/theme/img/ovo.webp
 ---
 
 {% include components/intro.md %}
@@ -37,35 +34,6 @@ Saya juga manusia, saya sering melakukan kesalahan. Saya akan sangat berterima k
 
 ## Belikan saya kopi atau suvenir
 
-Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi atau suvenir. Anda bisa mengirimkannya melalui akun DANA atau OVO:
-
-<div class="card-column">
-    {% for img in page.images %}
-    <div class="card" data-toggle="modal" data-target="#exampleModal" data-img="{{ img }}">
-        <img class="card-img-top" src="{{ img }}" />
-    </div>
-    {% endfor %}
-</div>
-
-<div class="modal fade" id="exampleModal">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body">
-        <img class="modal-img w-50" />
-      </div>
-    </div>
-  </div>
-</div>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('#exampleModal').on('show.bs.modal', function (event) {
-      var button = $(event.relatedTarget)
-      var img = button.data('img')
-      var modal = $(this)
-      modal.find('.modal-img').attr('src', img)
-    })
-  })
-</script>
+Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi atau suvenir. Anda bisa mengirimkannya melalui akun DANA atau OVO: 089655004224
 
 
