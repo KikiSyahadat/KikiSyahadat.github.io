@@ -30,7 +30,7 @@ Saya menggunakan openSUSE Tumbleweed yang perubahannya cepat karena merupakan <i
 
 Manusia tidak akan terlepas dari kesalahan. Terkadang kita mengucapkan atau melakukan sesuatu yang salah. Di saat seperti inilah kita butuh orang lain untuk mengoreksi kesalahan kita agar kita bisa memperbaikinya sebelum terbawa mati.
 
-Saya juga manusia, saya sering melakukan kesalahan. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan <i>ngedumel</i> atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore. ;)
+Saya juga manusia, saya sering melakukan kesalahan. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan <i>ngedumel</i> atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore.
 
 ## Belikan saya kopi atau suvenir
 
