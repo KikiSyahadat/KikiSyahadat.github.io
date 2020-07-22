@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 # Config for your profile.
 title:            Kiki's Blog             # Site title
-name:             Kiki            # Your name
+name:             Kiki's Blog             # Your name
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
