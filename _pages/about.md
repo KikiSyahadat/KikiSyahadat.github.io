@@ -10,9 +10,9 @@ images:
 
 {% include components/intro.md %}
 
-## Tentang [kikisyahadat.github.io](http://kikisyahadat.github.io)
+## Tentang [kikisyahadat.github.io](https://kikisyahadat.github.io)
 
-Blog ini dibuat untuk menyambung blog sebelumnya yang berada di [Blogger/Blogspot](http://kiki-syahadat.blogspot.com) dan <i>pindah rumah</i> dilaksanakan pada tanggal 22 Juli 2020 bertepatan dengan hari ulang tahun laptop saya yang saya beli tahun 2013 dan juga bertepatan dengan tanggal 1 Dzulhijjah 1441 H. Dulu saya beli laptop ini di tanggal 13 Ramadhan 1434 H setelah mendapat THR (pinjaman) dari orang tua untuk mengerjakan tugas di sekolah.
+Blog ini dibuat untuk menyambung blog sebelumnya yang berada di [Blogger/Blogspot](https://kiki-syahadat.blogspot.com) dan <i>pindah rumah</i> dilaksanakan pada tanggal 22 Juli 2020 bertepatan dengan hari ulang tahun laptop saya yang saya beli tahun 2013 dan juga bertepatan dengan tanggal 1 Dzulhijjah 1441 H. Dulu saya beli laptop ini di tanggal 13 Ramadhan 1434 H setelah mendapat THR (pinjaman) dari orang tua untuk mengerjakan tugas di sekolah.
 
 Blog ini tidak menyediakan kolom komentar. Jadi jika Anda ingin mengomentari sesuatu, <i>chat</i> saya di [Telegram](https://t.me/KikiSyahadat).
 
@@ -51,7 +51,7 @@ Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan say
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-body">
-        <img class="modal-img w-100" />
+        <img class="modal-img w-50" />
       </div>
     </div>
   </div>
