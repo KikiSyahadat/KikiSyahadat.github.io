@@ -11,8 +11,6 @@ title: Tentang
 
 Blog ini dibuat untuk menyambung blog sebelumnya yang berada di [Blogger/Blogspot](https://kiki-syahadat.blogspot.com) dan <i>pindah rumah</i> dilaksanakan pada tanggal 22 Juli 2020 bertepatan dengan hari ulang tahun laptop saya yang saya beli tahun 2013 dan juga bertepatan dengan tanggal 1 Dzulhijjah 1441 H. Dulu saya beli laptop ini di tanggal 13 Ramadhan 1434 H setelah mendapat THR (pinjaman) dari orang tua untuk mengerjakan tugas di sekolah.
 
-Blog ini dibuat menggunakan [Github Pages](https://pages.github.com) dengan tema [Friday Theme](https://github.com/sfreytag/friday-theme) dari [Mr. Simon Freytag](http://www.freytag.org.uk).
-
 Blog ini tidak menyediakan kolom komentar. Jadi jika Anda ingin mengomentari sesuatu, <i>chat</i> saya di [Telegram](https://t.me/KikiSyahadat).
 
 ## Linux dan openSUSE
@@ -32,7 +30,7 @@ Saya menggunakan openSUSE Tumbleweed yang perubahannya cepat karena merupakan <i
 
 Manusia tidak akan terlepas dari kesalahan. Terkadang kita mengucapkan atau melakukan sesuatu yang salah. Di saat seperti inilah kita butuh orang lain untuk mengoreksi kesalahan kita agar kita bisa memperbaikinya sebelum terbawa mati.
 
-Saya juga manusia, saya sering melakukan kesalahan. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan <i>ngedumel</i> atau mengadu kepada orang lain untuk minta dibela, siapa pun yang mengoreksi, walau <i>budak satepak</i> sekalipun. ;)
+Saya juga manusia, saya sering melakukan kesalahan. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan <i>ngedumel</i> atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore. ;)
 
 ## Belikan saya kopi atau suvenir
 
