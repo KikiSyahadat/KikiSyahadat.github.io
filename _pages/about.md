@@ -11,6 +11,8 @@ title: Tentang
 
 Blog ini dibuat untuk menyambung blog sebelumnya yang berada di [Blogger/Blogspot](https://kiki-syahadat.blogspot.com) dan <i>pindah rumah</i> dilaksanakan pada tanggal 22 Juli 2020 bertepatan dengan hari ulang tahun laptop saya yang saya beli tahun 2013 dan juga bertepatan dengan tanggal 1 Dzulhijjah 1441 H. Dulu saya beli laptop ini di tanggal 13 Ramadhan 1434 H setelah mendapat THR (pinjaman) dari orang tua untuk mengerjakan tugas di sekolah.
 
+Blog ini dibuat menggunakan [Github Pages](https://pages.github.com) dengan tema [Friday Theme](https://github.com/sfreytag/friday-theme) dari [Mr. Simon Freytag](http://www.freytag.org.uk).
+
 Blog ini tidak menyediakan kolom komentar. Jadi jika Anda ingin mengomentari sesuatu, <i>chat</i> saya di [Telegram](https://t.me/KikiSyahadat).
 
 ## Linux dan openSUSE
