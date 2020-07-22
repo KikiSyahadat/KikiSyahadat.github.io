@@ -7,7 +7,7 @@ title: Selamat Datang!
 
 {% include components/intro.md %}
 
-[Caranya bisa dibaca di sini.]({{ site.baseurl }}{% link about.md %})
+[Caranya bisa dibaca di sini.]({{ site.baseurl }}{% link about.html %})
 
 <hr />
 
