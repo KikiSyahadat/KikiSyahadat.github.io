@@ -1,10 +1,11 @@
 ---
-title: Documentation
+title: Projek
 narrow: true
 permalink: list/projects.html
 show_profile: true
 ---
 
-{% for project in site.projects %}
-- [{{ project.title }}]({{ site.baseurl }}{{ project.url }})
-{% endfor %}
+- [Google Play Store](https://play.google.com/store/apps/developer?id=Kiki+Syahadat+%26+Co)
+  - [Quran - Tafsir Jalalain](https://play.google.com/store/apps/details?id=syahadat.kiki.quran_tafsirjalalain)
+  - [Nadhom Sunda](https://play.google.com/store/apps/details?id=syahadat.kiki.nadhomsunda)
+  - [Wiridan Harian](https://play.google.com/store/apps/details?id=syahadat.kiki.wiridanharian)
