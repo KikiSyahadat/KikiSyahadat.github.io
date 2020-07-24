@@ -4,8 +4,8 @@ permalink: about.html
 narrow: true
 title: Tentang
 images:
-  - {% include img/dana.png %}
-  - {% include img/ovo.png %}
+  - https://kikisyahadat.github.io/theme/img/dana.png
+  - https://kikisyahadat.github.io/theme/img/ovo.png
 ---
 
 {% include components/intro.md %}
@@ -47,5 +47,5 @@ Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan say
     {% endfor %}
 </div>
 
-
+Atau Anda bisa menghubungi saya melalui [Telegram](https://t.me/KikiSyahadat).
 
