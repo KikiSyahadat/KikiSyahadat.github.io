@@ -37,7 +37,7 @@ Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat bert
 
 ## Belikan saya kopi atau suvenir
 
-Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi atau suvenir. Anda bisa mengirimkannya melalui akun DANA atau OVO:
+Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi, suvenir atau apa pun yang Anda bisa. Anda bisa mengirimkannya melalui akun DANA atau OVO:
 
 <div class="card-columns">
     {% for img in page.images %}
