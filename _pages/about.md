@@ -42,7 +42,7 @@ Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan say
 <div class="card-columns">
     {% for img in page.images %}
     <div class="card">
-        <img class="card-img-top" src="{{ img }}"/>
+        <img src="{{ img }}"/>
     </div>
     {% endfor %}
 </div>
