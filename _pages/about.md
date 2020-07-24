@@ -4,8 +4,8 @@ permalink: about.html
 narrow: true
 title: Tentang
 images:
-  - https://kikisyahadat.github.io/theme/img/dana.png
-  - https://kikisyahadat.github.io/theme/img/ovo.png
+  - https://kikisyahadat.github.io/theme/img/dana.png?width=272&height=272
+  - https://kikisyahadat.github.io/theme/img/ovo.png?width=272&height=272
 ---
 
 {% include components/intro.md %}
@@ -42,7 +42,7 @@ Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan say
 <div class="card-columns">
     {% for img in page.images %}
     <div class="card">
-        <img src="{{ img }}" width="272" height="272"/>
+        <img src="{{ img }}"/>
     </div>
     {% endfor %}
 </div>
