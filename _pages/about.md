@@ -34,6 +34,19 @@ Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat bert
 
 ## Belikan saya kopi atau suvenir
 
-Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi atau suvenir. Anda bisa mengirimkannya melalui akun DANA atau OVO: 089655004224
+Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi atau suvenir. Anda bisa mengirimkannya melalui akun DANA atau OVO:
 
+<div class="card mb-3">
+    <img class="card-img-top" src="https://kikisyahadat.github.io/theme/img/dana.png" />
+    <div class="card-body bg-light">
+        <div class="card-text">DANA</div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <img class="card-img-top" src="https://kikisyahadat.github.io/theme/img/ovo.png" />
+    <div class="card-body bg-light">
+        <div class="card-text">OVO</div>
+    </div>
+</div>
 
