@@ -3,6 +3,9 @@ layout: defaults/page
 permalink: about.html
 narrow: true
 title: Tentang
+images:
+  - https://kikisyahadat.github.io/theme/img/dana.png
+  - https://kikisyahadat.github.io/theme/img/ovo.png
 ---
 
 {% include components/intro.md %}
@@ -36,17 +39,11 @@ Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat bert
 
 Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi atau suvenir. Anda bisa mengirimkannya melalui akun DANA atau OVO:
 
-<div class="card mb-3">
-    <img src="https://kikisyahadat.github.io/theme/img/dana.png" width="272" height="272"/>
-    <div class="card-body bg-light">
-        <div class="card-text">DANA</div>
+<div class="card-columns">
+    {% for img in page.images %}
+    <div class="card">
+        <img src="{{ img }}" width="272" height="272"/>
     </div>
-</div>
-
-<div class="card mb-3">
-    <img src="https://kikisyahadat.github.io/theme/img/ovo.png" width="272" height="272"/>
-    <div class="card-body bg-light">
-        <div class="card-text">OVO</div>
-    </div>
+    {% endfor %}
 </div>
 
