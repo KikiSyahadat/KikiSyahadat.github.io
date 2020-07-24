@@ -4,8 +4,8 @@ permalink: about.html
 narrow: true
 title: Tentang
 images:
-  - https://kikisyahadat.github.io/theme/img/dana.png
-  - https://kikisyahadat.github.io/theme/img/ovo.png
+  - {% pages img/dana.png %}
+  - {% pages img/ovo.png %}
 ---
 
 {% include components/intro.md %}
