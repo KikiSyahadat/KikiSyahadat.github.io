@@ -35,7 +35,7 @@ Manusia tidak akan terlepas dari kesalahan. Terkadang kita mengucapkan atau mela
 
 Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan *ngedumel* atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore.
 
-## Belikan saya kopi atau suvenir
+## Belikan saya kopi atau suvenir {#buy-me-coffee}
 
 Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi, suvenir atau apa pun yang Anda mau. Anda bisa mengirimkannya melalui akun **DANA** atau **OVO**:
 

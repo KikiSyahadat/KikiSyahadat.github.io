@@ -7,7 +7,7 @@ title: Selamat Datang!
 
 {% include components/intro.md %}
 
-[Caranya bisa dibaca di sini.](https://kikisyahadat.github.io/about.html)
+[Caranya bisa dibaca di sini.](about.html#buy-me-coffee)
 
 ---
 
