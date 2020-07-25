@@ -4,8 +4,8 @@ permalink: about.html
 narrow: true
 title: Tentang
 images:
-  - _pages/img/dana.png?w=272
-  - _pages/img/ovo.png?w=272
+  - _pages/img/dana.png
+  - _pages/img/ovo.png
 ---
 
 {% include components/intro.md %}
@@ -42,7 +42,7 @@ Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan say
 <div class="card-columns">
     {% for img in page.images %}
     <div class="card">
-        <img src="{{ img }}"/>
+        <img src="{{ img }}" width="272"/>
     </div>
     {% endfor %}
 </div>
