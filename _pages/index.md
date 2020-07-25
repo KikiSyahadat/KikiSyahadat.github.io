@@ -9,7 +9,7 @@ title: Selamat Datang!
 
 [Caranya bisa dibaca di sini.](https://kikisyahadat.github.io/about.html)
 
-<hr />
+---
 
 ### Tulisan Terbaru
 
