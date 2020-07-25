@@ -3,9 +3,6 @@ layout: defaults/page
 permalink: about.html
 narrow: true
 title: Tentang
-images:
-  - _pages/img/dana.png
-  - _pages/img/ovo.png
 ---
 
 {% include components/intro.md %}
@@ -39,13 +36,7 @@ Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat bert
 
 Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi, suvenir atau apa pun yang Anda mau. Anda bisa mengirimkannya melalui akun **DANA** atau **OVO**:
 
-<div class="card-columns">
-    {% for img in page.images %}
-    <div class="card">
-        <img src="{{ img }}" width="272"/>
-    </div>
-    {% endfor %}
-</div>
+![DANA](_pages/img/dana.png) ![OVO](_pages/img/ovo.png)
 
 Atau Anda bisa menghubungi saya melalui [Telegram](https://t.me/KikiSyahadat).
 
