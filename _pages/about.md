@@ -4,8 +4,8 @@ permalink: about.html
 narrow: true
 title: Tentang
 images:
-  - img/dana.png
-  - img/ovo.png
+  - _pages/img/dana.png
+  - _pages/img/ovo.png
 ---
 
 {% include components/intro.md %}
