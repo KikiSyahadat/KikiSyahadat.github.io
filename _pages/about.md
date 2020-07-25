@@ -36,7 +36,7 @@ Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat bert
 
 Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi, suvenir atau apa pun yang Anda mau. Anda bisa mengirimkannya melalui akun **DANA** atau **OVO**:
 
-![DANA](_pages/img/dana.png) ![OVO](_pages/img/ovo.png)
+![DANA](_pages/img/dana.png)    ![OVO](_pages/img/ovo.png)
 
 Atau Anda bisa menghubungi saya melalui [Telegram](https://t.me/KikiSyahadat).
 
