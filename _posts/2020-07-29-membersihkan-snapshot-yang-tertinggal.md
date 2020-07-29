@@ -1,11 +1,11 @@
 ---
 title:  Membersihkan Snapshot yang tertinggal
 tags:
-  - Trik
-  - Linux
   - Btrfs
-  - Snapshot
+  - Linux
   - Snapper
+  - Snapshot
+  - Tips & Trik
 ---
 
 Pada dasarnya Snapshot yang dibuat oleh Snapper akan otomatis dihapus oleh *snapper-cleanup.service* jika sudah waktunya terhapus sesuai dengan konfigurasi yang ada di */etc/snapper/configs* (atau dengan perintah `su -c "snapper -c root get-config"`). Namun adakalanya Snapper gagal menghapus satu atau beberapa Snapshot yang saya sendiri masih belum paham kenapa bisa gagal terhapus.
