@@ -37,9 +37,9 @@ Perhatikan/cari nomor Snapshot yang ada di perintah `ls` tapi tidak ada di perin
 ## Menghapus Snapshot
 
 Ada tiga cara untuk menghapus Snapshot yang tidak kita inginkan ini, yaitu:
-1. cara *barbar*, dengan perintah `rm -rf`,
-2. cara yang cukup bisa diterima, dengan perintah `btrfs subvolume delete`,
-3. cara elegan, yaitu dengan mengembalikan Snapshot tersebut ke Snapper untuk kemudian dihapus secara alami.
+1. Cara *barbar*, dengan perintah `rm -rf`.
+2. Cara yang cukup bisa diterima, dengan perintah `btrfs subvolume delete`.
+3. Cara elegan, yaitu dengan mengembalikan Snapshot tersebut ke Snapper untuk kemudian dihapus secara alami.
 
 ### Backup data dan siapkan *rescue system*
 
