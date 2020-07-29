@@ -69,7 +69,7 @@ Coba jalankan ulang komputer. Jika berjalan normal (tidak menjadi *read-only*) b
 
 ### Cara ketiga, kembalikan Snapshot ke Snapper
 
-Tidak terdatanya Snapshot oleh Snapper biasanya karena *subvolume* **/.snapshots/<nomor_snaphot>/snapshot** masih ada (tidak terhapus), tapi *file* **/.snapshots/<nomor_snapshot>/info.xml** hilang atau kosong (tidak ada isinya).
+Tidak terdatanya Snapshot oleh Snapper biasanya karena *subvolume* */.snapshots/\<nomor_snaphot\>/snapshot* masih ada (tidak terhapus), tapi *file* */.snapshots/\<nomor_snapshot\>/info.xml* hilang atau kosong (tidak ada isinya).
 
 Untuk mengembalikan Snapshot ke Snapper kita harus mengembalikan *file* *info.xml* ke kondisi seharusnya. Caranya dengan menyalin *file* *info.xml* dari Snapshot yang lebih baru ke Snapshot yang tidak terdata Snapper lalu mengubah isinya supaya sesuai dengan Snapshot tersebut.
 
