@@ -45,13 +45,13 @@ Ada tiga cara untuk menghapus Snapshot yang tidak kita inginkan ini, yaitu:
 
 Sebelum menjalankan proses penghapusan sebaiknya *backup* semua data penting ke partisi lain atau ke penyimpanan eksternal untuk mengantisipasi kerusakan sistem, terutama jika Anda memilih cara pertama dalam menghapus Snapshot.
 
-Siapkan juga installer di *thumb drive*/*flashdisk* atau DVD untuk persiapan install ulang jika Anda menggunakan cara pertama, atau persiapan *fsck* (`btrfs check`) *filesystem* jika Anda menggunakan cara kedua. Cara kedua bisa dikategorikan aman, hanya saja menghapus Snapshot dengan cara ini kadang membuat *metadata* menjadi tidak klop yang membuat BtrFS menjadi *read-only* sebagai proteksi menghindari kehilangan data. Memperbaiki *filesystem* yang *read-only* juga bisa dilakukan dengan *live system* sebagai alternatif jika Anda sudah tidak memiliki **ISO** installer.
+Siapkan juga installer di *thumb drive*/*flashdisk* atau DVD untuk persiapan install ulang jika Anda menggunakan cara pertama, atau persiapan *fsck* (`btrfs check`) *filesystem* jika Anda menggunakan cara kedua. Cara kedua bisa dikategorikan aman, hanya saja menghapus Snapshot dengan cara ini kadang membuat *metadata* menjadi tidak klop yang membuat Btrfs menjadi *read-only* sebagai proteksi menghindari kehilangan data. Memperbaiki *filesystem* yang *read-only* juga bisa dilakukan dengan *live system* sebagai alternatif jika Anda sudah tidak memiliki **ISO** installer.
 
 ### Cara pertama, `rm -rf`
 
-1. Cari tahu *subvolid* dari Snapshot yang akan dihapus dengan perintah `su -c "btrfs subvol list /" | grep <nomor_snapshot>`. Isi `<nomor_snapshot>` dengan nomor Snapshot yang akan dihapus. Perintah ini akan menampilkan keluaran: `ID <subvolid> gen <dan_seterusnya>`.
-2. Kaitkan/*mount* *subvolume* di mana Snapshot yang akan dihapus berada ke sebuah direktori (biasanya /mnt) dengan perintah `su -c "mount -o subvolid=<subvolid_dari_perintah_1> /dev/sdXY /mnt", di mana sdXY adalah partisi tempat Snapshot berada, misal `/dev/sda2`.
-3. Cari tahu lokasi Snapshot yang akan dihapus yang berada di */mnt* dengan perintah `su -c "btrfs subvol list /mnt"`.
+1. Cari tahu *subvolid* dari Snapshot yang akan dihapus dengan perintah `su -c "btrfs subvol list /" | grep <nomor_snapshot>`. Ganti `<nomor_snapshot>` dengan nomor Snapshot yang akan dihapus. Perintah ini akan menampilkan keluaran: `ID <subvolid> gen <dan_seterusnya>`.
+2. Kaitkan/*mount* *subvolume* di mana Snapshot yang akan dihapus berada ke sebuah direktori (biasanya /mnt) dengan perintah `su -c "mount -o subvolid=<subvolid_dari_perintah_1> /dev/sdXY /mnt"`, di mana sdXY adalah partisi tempat Snapshot berada, misal `/dev/sda2`.
+3. Cari tahu lokasi Snapshot yang akan dihapus yang berada di */mnt* dengan perintah `su -c "btrfs subvol list /mnt" | grep <nomor_snapshot>`. Ganti `<nomor_snapshot>` dengan nomor Snapshot yang akan dihapus.
 4. Hapus Snapshot tersebut dengan perintah `su -c "rm -rfv /mnt/<nomor_snapshot>"`. Ganti `<nomor_snapshot>` dengan nomor Snapshot yang akan dihapus.
 5. Lepaskan kaitan/*unmount* *subvolume* dengan perintah `su -c "umount /mnt"`.
 
@@ -59,7 +59,7 @@ Coba jalankan ulang komputer. Jika berjalan normal (tidak kernel panik atau kehi
 
 ### Cara kedua, `btrfs subvol delete`
 
-Jalankan langkah 1 hingga 3 dari cara pertama.
+Jalankan langkah 1 hingga 3 dari cara pertama. Lalu:
 
 - Hapus Snapshot tersebut dengan perintah `su -c "btrfs subvol delete /mnt/<nomor_snapshot>/snapshot"`. Ganti `<nomor_snapshot>` dengan nomor Snapshot yang akan dihapus.
 
@@ -69,7 +69,7 @@ Coba jalankan ulang komputer. Jika berjalan normal (tidak menjadi *read-only*) b
 
 ### Cara ketiga, kembalikan Snapshot ke Snapper
 
-Tidak terdatanya Snapshot oleh Snapper biasanya karena *subvolume* */.snapshots/<nomor_snaphot>/snapshot* masih ada (tidak terhapus), tapi *file* */.snapshots/<nomor_snapshot>/info.xml* hilang atau kosong/tidak ada isinya.
+Tidak terdatanya Snapshot oleh Snapper biasanya karena *subvolume* **/.snapshots/<nomor_snaphot>/snapshot** masih ada (tidak terhapus), tapi *file* **/.snapshots/<nomor_snapshot>/info.xml** hilang atau kosong (tidak ada isinya).
 
 Untuk mengembalikan Snapshot ke Snapper kita harus mengembalikan *file* *info.xml* ke kondisi seharusnya. Caranya dengan menyalin *file* *info.xml* dari Snapshot yang lebih baru ke Snapshot yang tidak terdata Snapper lalu mengubah isinya supaya sesuai dengan Snapshot tersebut.
 
@@ -77,9 +77,9 @@ Kita umpamakan Snapshot yang tidak terdata adalah nomor **567** dan Snapshot yan
 
 1. Salin *file* *info.xml* dari Snapshot 1234 ke Snapshot 567 dengan perintah `su -c "cp /.snapshots/1234/info.xml /.snapshots/567/"`.
 2. Ubah nomor Snapshot di *info.xml* yang baru saja disalin supaya sesuai dengan Snapshot 567 dengan perintah `su -c "sed -i 's/1234/567/' /.snapshots/567/info.xml"`. Ubah juga tanggalnya jika perlu, tapi ini hanya opsional saja. Jika Anda tidak mengerti dengan yang saya maksud, baca *file* tersebut dengan perintah `su -c "cat /.snapshots/567/info.xml"`, terdapat informasi tanggal di sana.
-3. Biarkan sistem menghapus Snapshot tersebut secara alami pada waktunya. Jika Anda tidak sabar ingin segera menghapusnya, jalankan *service* *snapper-cleanup* dengan perintah `su -c "systemctl start snapper-cleanup.service"`. Atau bisa langsung menggunakan perintah `snapper`, yaitu `su -c "snapper -c root delete 567", bisa juga ditambah opsi `--sync` supaya ruang penyimpanan segera dikembalikan, `su -c "snapper -c root delete --sync 567"`.
+3. Biarkan sistem menghapus Snapshot tersebut secara alami pada waktunya. Jika Anda tidak sabar ingin segera menghapusnya, jalankan *service* *snapper-cleanup* dengan perintah `su -c "systemctl start snapper-cleanup.service"`. Atau bisa langsung menggunakan perintah `snapper`, yaitu `su -c "snapper -c root delete 567"`, bisa juga ditambah opsi `--sync` supaya ruang penyimpanan segera dikembalikan, `su -c "snapper -c root delete --sync 567"`.
 
 ## Hapus Snapshot yang berada di konfigurasi lain
 
-Jika Anda punya lebih dari satu konfigurasi Snapper (seperti saya) dan juga ada Snapshot yang gagal terhapus, ulangi cara di atas untuk konfigurasi lain. Yang membedakan hanya lokasi di mana direktori *.snapshots* berada. Anda bisa memeriksanya dengan perintah `su -c "snapper list-configs"`, di sana ditunjukkan di mana lokasi *subvolume* berada, tinggal ditambahkan *.snapshots* di belakangnya. Misal untuk *subvolume* */home* lokasi *.snaphots* berada di */home/.snaphsots*, dan seterusnya.
+Jika Anda punya lebih dari satu konfigurasi Snapper (seperti saya) dan juga ada Snapshot yang gagal terhapus, ulangi cara di atas untuk konfigurasi lain. Yang membedakan hanya lokasi di mana direktori *.snapshots* berada. Anda bisa memeriksanya dengan perintah `su -c "snapper list-configs"`, di sana ditunjukkan di mana lokasi *subvolume* berada, tinggal ditambahkan *.snapshots* di belakangnya. Misal untuk *subvolume* */home* lokasi *.snapshots* berada di */home/.snapshots*, dan seterusnya.
 
