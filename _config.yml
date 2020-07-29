@@ -69,6 +69,11 @@ defaults:
     values:
       show_profile: false
       layout: defaults/list
+  -
+    scope:
+      path: "404.html"
+    values:
+      show_profile: true
 
 plugins:
   - jekyll-feed
