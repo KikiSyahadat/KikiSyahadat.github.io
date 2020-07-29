@@ -75,7 +75,7 @@ Untuk mengembalikan Snapshot ke Snapper kita harus mengembalikan *file* *info.xm
 
 Kita umpamakan Snapshot yang tidak terdata adalah nomor **567** dan Snapshot yang lebih baru adalah nomor **1234** (anggap saja Snapshot nomor 568 sampai nomor 1233 sudah terhapus).
 
-1. Salin *file* *info.xml* dari Snapshot 1234 ke Snapshot 567 dengan perintah `su -c "cp /.snapshots/1234/info.xml /.snapshots/567/"`.
+1. Salin *file* *info.xml* dari Snapshot 1234 ke Snapshot 567 dengan perintah `su -c "cp -av /.snapshots/1234/info.xml /.snapshots/567/"`.
 2. Ubah nomor Snapshot di *info.xml* yang baru saja disalin supaya sesuai dengan Snapshot 567 dengan perintah `su -c "sed -i 's/1234/567/' /.snapshots/567/info.xml"`. Ubah juga tanggalnya jika perlu, tapi ini hanya opsional saja. Jika Anda tidak mengerti dengan yang saya maksud, baca *file* tersebut dengan perintah `su -c "cat /.snapshots/567/info.xml"`, terdapat informasi tanggal di sana.
 3. Biarkan sistem menghapus Snapshot tersebut secara alami pada waktunya. Jika Anda tidak sabar ingin segera menghapusnya, jalankan *service* *snapper-cleanup* dengan perintah `su -c "systemctl start snapper-cleanup.service"`. Atau bisa langsung menggunakan perintah `snapper`, yaitu `su -c "snapper -c root delete 567"`, bisa juga ditambah opsi `--sync` supaya ruang penyimpanan segera dikembalikan, `su -c "snapper -c root delete --sync 567"`.
 
