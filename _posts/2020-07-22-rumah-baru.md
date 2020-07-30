@@ -9,5 +9,5 @@ Bertepatan dengan momen *new normal* saya mencoba membuat *new home* di sini. Bl
 
 <!--more-->
 
-Semoga nantinya saya bisa pindah ke rumah baru betulan.
+Semoga nantinya saya bisa pindah ke rumah baru betulan. :grinning:
 

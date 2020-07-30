@@ -77,3 +77,4 @@ defaults:
 
 plugins:
   - jekyll-feed
+  - jemoji
