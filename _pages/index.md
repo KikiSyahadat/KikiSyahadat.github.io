@@ -5,7 +5,7 @@ narrow: true
 title: Selamat Datang!
 ---
 
-{% include components/intro.md %} [Caranya bisa dibaca di sini.](about.html#buy-me-coffee)
+{% include components/intro.md %} [Caranya bisa dibaca di halaman **Tentang**.](about.html#buy-me-coffee)
 
 ---
 
