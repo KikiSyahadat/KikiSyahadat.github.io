@@ -83,3 +83,6 @@ Kita umpamakan Snapshot yang tidak terdata adalah nomor **567** dan Snapshot yan
 
 Jika Anda punya lebih dari satu konfigurasi Snapper (seperti saya) dan juga ada Snapshot yang gagal terhapus, ulangi cara di atas untuk konfigurasi lain. Yang membedakan hanya lokasi di mana direktori *.snapshots* berada. Anda bisa memeriksanya dengan perintah `su -c "snapper list-configs"`, di sana ditunjukkan di mana lokasi *subvolume* berada, tinggal ditambahkan *.snapshots* di belakangnya. Misal untuk *subvolume* */home* lokasi *.snapshots* berada di */home/.snapshots*, dan seterusnya.
 
+## Jika sistem menjadi *read-only*
+
+Jika setelah komputer dijalankan menjadi *read-only*, yang biasanya ditandai dengan tidak bisa login dan muncul peringatan bahwa sesuatu *is not writable*, lakukan langkah-langkah *troubleshooting* dari halaman [en.opensuse.org/SDB:BTRFS, pada bagian **How to repair a broken/unmountable btrfs filesystem**](https://en.opensuse.org/SDB:BTRFS){:target="_blank"}.
