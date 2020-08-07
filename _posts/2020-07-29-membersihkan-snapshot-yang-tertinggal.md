@@ -85,4 +85,4 @@ Jika Anda punya lebih dari satu konfigurasi Snapper (seperti saya) dan juga ada 
 
 ## Jika sistem menjadi *read-only*
 
-Jika setelah dijalankan ulang komputer menjadi *read-only*, yang biasanya ditandai dengan tidak bisa login dan muncul peringatan bahwa sesuatu *is not writable*, lakukan langkah-langkah *troubleshooting* dari halaman [en.opensuse.org/SDB:BTRFS, pada bagian **How to repair a broken/unmountable btrfs filesystem**](https://en.opensuse.org/SDB:BTRFS#How_to_repair_a_broken.2Funmountable_btrfs_filesystem){:target="_blank"}.
+Jika setelah dijalankan ulang komputer menjadi *read-only*, yang biasanya ditandai dengan tidak bisa login dan muncul peringatan bahwa sesuatu *is not writable*, lakukan langkah-langkah *troubleshooting* dari halaman [en.opensuse.org/SDB:BTRFS](https://en.opensuse.org/SDB:BTRFS){:target="_blank"}, pada bagian [How to repair a broken/unmountable btrfs filesystem](https://en.opensuse.org/SDB:BTRFS#How_to_repair_a_broken.2Funmountable_btrfs_filesystem){:target="_blank"}.
