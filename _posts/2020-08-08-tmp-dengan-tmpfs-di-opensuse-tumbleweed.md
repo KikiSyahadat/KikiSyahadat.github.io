@@ -1,9 +1,9 @@
 ---
 title:  /tmp dengan tmpfs di openSUSE Tumbleweed
 tags:
-  - Panduan
   - Informasi
   - openSUSE
+  - Panduan
   - tmpfs
   - Tumbleweed
 ---
