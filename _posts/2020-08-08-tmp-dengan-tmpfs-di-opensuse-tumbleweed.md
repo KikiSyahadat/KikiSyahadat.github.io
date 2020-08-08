@@ -2,10 +2,10 @@
 title:  /tmp dengan tmpfs di openSUSE Tumbleweed
 tags:
   - Informasi
-  - openSUSE
   - Panduan
-  - tmpfs
   - Tumbleweed
+  - openSUSE
+  - tmpfs
 ---
 
 Jika Anda memasang openSUSE Tumbleweed dengan versi ISO Snapshot 20200806 secara baku instalasi Anda akan membuat direktori */tmp* dengan *tmpfs*, sedangkan pada versi sebelum Snapshot tersebut */tmp* akan berada pada sebuah *subvolume* Btrfs.
