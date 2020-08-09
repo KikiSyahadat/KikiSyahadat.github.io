@@ -16,7 +16,7 @@ Ini saya alami di Plasma 5 Wayland. Ketika saya menjalankan Guest OS di VirtualB
 1. Login ke sesi Wayland.
 2. Buka menu utama VirtualBox lewat menu desktop.
 3. Jalankan salah satu Guest OS.
-4. Klik di manapun di dalam Guest OS (contoh di menu). Klik pertama biasanya berjalan normal, klik berikutnya seperti tidak berfungsi, baik klik kiri atau pun klik kanan.
+4. Klik di manapun di dalam Guest OS (contoh: di menu). Klik pertama biasanya berjalan normal, klik berikutnya tidak akan berfungsi, baik klik kiri atau pun klik kanan.
 
 ## Solusi
 
