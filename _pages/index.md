@@ -15,6 +15,6 @@ title: Selamat Datang!
 {% include components/post-card.html %}
 {% endfor %}
 
-[**Semua tulisan ...**](list/posts.html)
+#### [Semua tulisan ...](list/posts.html)
 
 
