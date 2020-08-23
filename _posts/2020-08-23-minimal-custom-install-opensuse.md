@@ -6,7 +6,7 @@ tags:
   - openSUSE
 ---
 
-Minimal/*custom* install openSUSE bisa dilakukan dengan menggunakan ISO **Network Image** atau **DVD Image**. Tapi saya biasanya menggunakan DVD Image, supaya saat proses instalasi tidak harus terhubung ke internet yang membuat proses instalasi lebih cepat. Juga setelah proses instalasi selesai kita bisa langsung memasang software yang dibutuhkan dari DVD Image sehingga tidak pusing harus terhubung ke internet terlebih dahulu.
+Minimal/*custom* install openSUSE bisa dilakukan dengan menggunakan ISO **DVD Image** atau **Network Image**. Tapi saya biasanya menggunakan DVD Image, supaya saat proses instalasi tidak harus terhubung ke internet yang membuat proses instalasi lebih cepat. Juga setelah proses instalasi selesai kita bisa langsung memasang software yang dibutuhkan dari DVD Image sehingga tidak pusing harus terhubung ke internet terlebih dahulu.
 
 <!--more-->
 
@@ -32,11 +32,11 @@ Jika saat instalasi komputer tidak terhubung dengan internet (dan saya sarankan 
 
 ### System Role
 
-Layar selanjutnya adalah **System Role**. Pilih **Desktop with KDE Plasma**, **Desktop with GNOME** atau **Generic Desktop**. Kecuali jika Anda akan menggunakannya untuk *server*. Pilihan ini tidak akan berpengaruh pada hasil instalasi karena di proses selanjutnya semua paket akan di-*reset* supaya jadi *minimal*. Mimilih salah satu dari **System Role** hanya supaya bisa masuk ke proses selanjutnya. Klik **Next**.
+Layar selanjutnya adalah **System Role**. Pilih **Desktop with KDE Plasma**, **Desktop with GNOME** atau **Generic Desktop**. Kecuali jika Anda akan menggunakannya untuk *server*. Pilihan ini tidak akan berpengaruh pada hasil instalasi karena di proses selanjutnya semua paket akan di-*reset* supaya jadi *minimal*. Memilih salah satu dari **System Role** hanya supaya bisa masuk ke proses selanjutnya. Klik **Next**.
 
 ### Suggested Partitioning
 
-Layar selanjutnya adalah **Suggested Partitioning**. Anda bisa mengubahnya dengan mengklik **Expert Partitioner** lalu memilih salah satu dari **Start with Current Proposal** atau **Start with Existing Partitions**. Jika Anda sudah menyediakan partisi untuk instalasi openSUSE sebelumnya, pilih yang kedua. Jika belum Anda bisa mencoba memilih yang pertama. Klik **Next**.
+Layar selanjutnya adalah **Suggested Partitioning**. Anda bisa mengubahnya dengan mengklik **Expert Partitioner** lalu memilih salah satu dari **Start with Current Proposal** atau **Start with Existing Partitions**. Jika sebelumnya Anda sudah menyiapkan partisi untuk instalasi openSUSE, pilih yang kedua. Jika belum Anda bisa mencoba memilih yang pertama. Klik **Next**.
 
 #### Expert Partitioner
 
@@ -48,7 +48,7 @@ Layar selanjutnya adalah **Expert Partitioner**. Klik **Hard Disks** di panel se
   - /dev/sdb1: 465.8 GiB, **Type**: *Ext4*, **Mount Point**: */home/data* (karena saya membiarkan /home berada di sebuah *subvolume* di dalam partisi root, maka semua data dipisah di satu partisi besar ini)
 Saya **tidak** menggunakan partisi **Swap** karena saya membuat Swap berupa **Swapfile** dan **Zram** setelah instalasi selesai.
 
-Perhatikan partisi yang akan diformat. Jika sebelumnya sudah ada sistem operasi lain dan akan jadi *multiboot*, partisi *EFI System Partition* jangan diformat. Partisi di mana data tersimpan juga jangan diformat. Jadi yang diformat hanya partisi dengan **Mount Point** */* saja.
+Perhatikan partisi yang akan diformat. Jika sebelumnya sudah ada sistem operasi lain dan akan jadi *multiboot*, partisi *EFI System Partition* jangan diformat. Partisi di mana data tersimpan juga jangan diformat. Jadi yang diformat hanya partisi root (*/*) saja.
 
 Jika Anda memilih BtrFS untuk root (*/*), Anda bisa mengaktifkan **Snapshot** saat pemilihan partisi ini. Tapi saya biasanya tidak mengaktifkan Snapshot di sini melainkan setelah proses instalasi selesai. Alasannya karena saya membuat konfigurasi Snapshot bukan untuk *root* saja, tapi untuk *subvolume* lainnya juga. Dengan mengaktifkan Snapshot secara bersamaan setelah proses instalasi selesai, nomor Snapshot akan selalu serasi di semua konfigurasi.
 
@@ -56,7 +56,7 @@ Setelah selesai mengatur partisi klik **Accept** untuk kembali ke layar **Sugges
 
 ### Clock and Time Zone
 
-Layar selanjutnya adalah **Clock and Time Zone**. Di pilihan **Region** pilih **Asia** dan di pilihan **Time Zone** pilih **Jakarta** jika Anda tinggal di wilayah dengan *Waktu Indonesia Bara*. Untuk wilayah lain silakan sesuaikan. Untuk pilihan **Hardware Clock Set to UTC**, jika Anda *multi/dualboot* dengan Windows, jangan centang opsi ini. Jika *singleboot* atau *multi/dualboot* dengan Linux yang lain tanpa ada Windows sama sekali, lebih baik opsi ini dicentang. Setelah selesai klik **Next**.
+Layar selanjutnya adalah **Clock and Time Zone**. Di pilihan **Region** pilih **Asia** dan di pilihan **Time Zone** pilih **Jakarta** jika Anda tinggal di wilayah *Waktu Indonesia Barat*. Untuk wilayah lain silakan sesuaikan. Untuk pilihan **Hardware Clock Set to UTC**, jika Anda *multi/dualboot* dengan Windows, jangan centang opsi ini. Jika *singleboot* atau *multi/dualboot* dengan Linux yang lain tanpa ada Windows sama sekali, lebih baik opsi ini dicentang. Setelah selesai klik **Next**.
 
 ### Local User
 
@@ -83,6 +83,7 @@ Setelah mengubah **Software Selection and System Tasks**, **Default systemd targ
 Ketika kembali ke layar **Installation Settings** akan ada dua tulisan berwarna merah:
 - The installer is recommending you the default target 'Text mode'
 - X11 packages have not been selected for installation
+
 Abaikan keduanya.
 
 #### Network Configuration
@@ -99,7 +100,7 @@ Saat komputer pertama kali dijalankan, Anda akan masuk ke mode CLI. Dan saat log
 
 ### Modifikasi /etc/zypp/zypp.conf
 
-Di layar **Software Selection and System Tasks** di atas kita mengubah dua opsi, yaitu menghilangkan centang **Install Recommended Packages** dan mencentang **Cleanup when deleting packages**. Setelah instalasi selesai dan sebelum memasang paket apa pun, kita perlu mengubah kedua opsi tersebut di /etc/zypp/zypp.conf. Karena jika tidak, saat kita memasang paket atau melakukan *update* akan banyak paket rekomendasi yang dipasang yang membuat proses di atas menjadi sia-sia.
+Di layar **Software Selection and System Tasks** di atas kita mengubah dua opsi, yaitu menghilangkan centang **Install Recommended Packages** dan mencentang **Cleanup when deleting packages**. Setelah instalasi selesai dan sebelum memasang paket apa pun, kita perlu menyesuaikan kedua opsi tersebut di /etc/zypp/zypp.conf. Karena jika tidak, saat kita memasang paket atau melakukan *update* akan banyak paket rekomendasi yang dipasang yang membuat proses di atas menjadi sia-sia.
 
 Hilangkan centang **Install Recommended Packages**:
 
@@ -109,7 +110,7 @@ Centang **Cleanup when deleting packages**:
 
 `su -c "sed -i 's/# solver.cleandepsOnRemove = false/solver.cleandepsOnRemove = true/' /etc/zypp/zypp.conf"`
 
-Sebagai tambahan, Anda juga bisa mengubah opsi **Allow vendor change** supaya saat memasang atau *update* paket tidak banyak pertanyaan untuk mengganti vendor dari paket software:
+Sebagai tambahan, Anda juga bisa mengubah opsi **Allow vendor change** supaya saat memasang atau *update* paket tidak banyak pertanyaan untuk mengganti vendor dari paket yang akan dipasang:
 
 `su -c "sed -i 's/# solver.allowVendorChange = false/solver.allowVendorChange = true/' /etc/zypp/zypp.conf"`
 
@@ -151,7 +152,7 @@ Matikan repositori lokal:
 
 `su -c "zypper modifyrepo -dl"`
 
-Jika perlu, matikan autorefresh semua repositori. Ketika kita akan memasang atau update paket kita bisa memperbarui repositori secara manual:
+Jika perlu, matikan autorefresh semua repositori. Ketika kita akan memasang atau *update* paket kita bisa memperbarui repositori secara manual:
 
 `su -c "zypper modifyrepo -Fa"`
 
@@ -177,3 +178,8 @@ Setelah membuat **Snapshot**, fitur **Factory Reset**, memasang paket `plasma5-s
         <div class="card-text"> openSUSE Leap 15.2 KDE Plasma 5.18</div>
     </div>
 </div>
+
+## Eksperimen
+
+Silakan Anda lakukan percobaan-percobaan modifikasi dari tulisan ini, seperti mengubah pilihan paket **xf86-input-libinput** dengan *driver* input yang lain, mengganti **zypper** dengan manajer paket lain seperti **dnf** dan lain-lain.
+
