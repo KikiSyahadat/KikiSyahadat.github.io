@@ -41,11 +41,13 @@ Layar selanjutnya adalah **Suggested Partitioning**. Anda bisa mengubahnya denga
 #### Expert Partitioner
 
 Layar selanjutnya adalah **Expert Partitioner**. Klik **Hard Disks** di panel sebelah kiri, lalu atur susunan partisi di sebelah kanan sesuai kebutuhan melalui pilihan menu **Modify** dan **Partitions** di bagian bawah layar. Sebagai gambaran, susunan partisi saya adalah seperti berikut:
+
 - /dev/sda: SSD 120 GiB, terbaca 111,8 GiB
   - /dev/sda1: 300 MiB, **Type**: *EFI System Partition*, **Mount Point**: */boot/efi*
   - /dev/sda2: 111.5 GiB, **Type**: *BtrFS*, **Mount Point**: */* (dengan membuat satu *subvolume* tambahan untuk menyimpan software-software yang tidak dipasang melalui repositori)
 - /dev/sdb: HDD 500 GiB, terbaca 465.8 GiB
   - /dev/sdb1: 465.8 GiB, **Type**: *Ext4*, **Mount Point**: */home/data* (karena saya membiarkan /home berada di sebuah *subvolume* di dalam partisi root, maka semua data dipisah di satu partisi besar ini)
+
 Saya **tidak** menggunakan partisi **Swap** karena saya membuat Swap berupa **Swapfile** dan **Zram** setelah instalasi selesai.
 
 Perhatikan partisi yang akan diformat. Jika sebelumnya sudah ada sistem operasi lain dan akan jadi *multiboot*, partisi *EFI System Partition* jangan diformat. Partisi di mana data tersimpan juga jangan diformat. Jadi yang diformat hanya partisi root (*/*) saja.
@@ -81,6 +83,7 @@ Setelah semua tanda centang **Pattern** dihapus, klik tab **Search**. Di sini ki
 Setelah mengubah **Software Selection and System Tasks**, **Default systemd target** akan berubah menjadi **Text mode**. Klik teks **Default systemd target**, lalu di layar **Set Default Systemd Target** ubah kembali menjadi **Graphical mode**. Tujuannya supaya setelah kita memasang Desktop Environment atau Window Manager, kita bisa langsung masuk ke GUI tanpa harus mengubah lagi default target. Klik **OK** untuk kembali ke layar **Installation Settings**.
 
 Ketika kembali ke layar **Installation Settings** akan ada dua tulisan berwarna merah:
+
 - The installer is recommending you the default target 'Text mode'
 - X11 packages have not been selected for installation
 
@@ -163,6 +166,7 @@ Jika Anda ingin menyimpan semua *file* **.rpm** yang diunduh saat memasang paket
 ## Langkah selanjutnya
 
 Proses instalasi sudah selesai, Anda bisa melanjutkan ke proses selanjutnya (akan dibahas di tulisan berikutnya):
+
 1. Membuat **Snapshot** dan fitur **Factory Reset**.
 2. Memasang **Desktop Environment**/**Window Manager** dan **Display Manager**.
 3. Memasang software aplikasi yang dibutuhkan untuk komputasi harian.
