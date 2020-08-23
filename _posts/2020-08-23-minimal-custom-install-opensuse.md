@@ -1,5 +1,5 @@
 ---
-title:  Minimal/*custom* install openSUSE
+title:  Minimal/custom install openSUSE
 tags:
   - Install
   - Panduan
@@ -102,46 +102,61 @@ Saat komputer pertama kali dijalankan, Anda akan masuk ke mode CLI. Dan saat log
 Di layar **Software Selection and System Tasks** di atas kita mengubah dua opsi, yaitu menghilangkan centang **Install Recommended Packages** dan mencentang **Cleanup when deleting packages**. Setelah instalasi selesai dan sebelum memasang paket apa pun, kita perlu mengubah kedua opsi tersebut di /etc/zypp/zypp.conf. Karena jika tidak, saat kita memasang paket atau melakukan *update* akan banyak paket rekomendasi yang dipasang yang membuat proses di atas menjadi sia-sia.
 
 Hilangkan centang **Install Recommended Packages**:
+
 `su -c "sed -i 's/# solver.onlyRequires = false/solver.onlyRequires = true/' /etc/zypp/zypp.conf"`
 
 Centang **Cleanup when deleting packages**:
+
 `su -c "sed -i 's/# solver.cleandepsOnRemove = false/solver.cleandepsOnRemove = true/' /etc/zypp/zypp.conf"`
 
 Sebagai tambahan, Anda juga bisa mengubah opsi **Allow vendor change** supaya saat memasang atau *update* paket tidak banyak pertanyaan untuk mengganti vendor dari paket software:
+
 `su -c "sed -i 's/# solver.allowVendorChange = false/solver.allowVendorChange = true/' /etc/zypp/zypp.conf"`
+
 dan:
+
 `su -c "sed -i 's/solver.dupAllowVendorChange = false/# solver.dupAllowVendorChange = true/' /etc/zypp/zypp.conf"`
 
 Dan jika Anda ingin membuat fitur *factory reset*, Anda perlu mempertahankan **kernel GA** supaya saat di-*reset* tidak terjadi *kernel panic*:
+
 `su -c "sed -i 's/,running/,running,oldest/' /etc/zypp/zypp.conf"`
 
 ### Hapus paket-paket yang tidak dibutuhkan
 
 Anda sekarang bisa menghapus semua paket `patterns` yang ikut dipasang saat proses instalasi. Langkah pertama adalah mematikan semua repositori online:
+
 `su -c "zypper modifyrepo -dt"`
 
 Aktifkan repositori dari installer:
+
 `su -c "zypper modifyrepo -el"`
 
 Hapus semua paket `patterns`:
+
 `su -c "zypper remove patterns-*"`
 
 Periksa jika ada paket `unneeded` dan `orphaned`:
+
 `zypper packages --unneeded --orphaned`
 
 Jika ada, hapus semua:
+
 `su -c "zypper remove <nama-paket>"`
 
 Setelah selesai, aktifkan kembali repositori `oss`, `non-oss`, `update` dan `update-non-oss`:
+
 `su -c "zypper modifyrepo -e repo-oss repo-non-oss repo-update repo-update-non-oss"`
 
 Matikan repositori lokal:
+
 `su -c "zypper modifyrepo -dl"`
 
 Jika perlu, matikan autorefresh semua repositori. Ketika kita akan memasang atau update paket kita bisa memperbarui repositori secara manual:
+
 `su -c "zypper modifyrepo -Fa"`
 
 Jika Anda ingin menyimpan semua *file* **.rpm** yang diunduh saat memasang paket (semua paket tersebut akan tersimpan di /var/cache/zypp/packages):
+
 `su -c "zypper modifyrepo -ka"`
 
 ## Langkah selanjutnya
@@ -157,7 +172,7 @@ Proses instalasi sudah selesai, Anda bisa melanjutkan ke proses selanjutnya (aka
 Setelah membuat **Snapshot**, fitur **Factory Reset**, memasang paket `plasma5-session`, `sddm`, `plasma-nm5`, `plasma5-pa` dan `konsole`, berikut penampakannya:
 
 <div class="card mb-3">
-    <img class="card-img-top" src="assets/images/2020/08/23/kde-minimal.webp"/>
+    <img class="card-img-top" src="{{site.baseurl}}/assets/images/2020/08/23/kde-minimal.webp"/>
     <div class="card-body bg-light">
         <div class="card-text"> openSUSE Leap 15.2 KDE Plasma 5.18</div>
     </div>
