@@ -7,7 +7,7 @@ title: Tentang
 
 {% include components/intro.md %}
 
-## Tentang [kikisyahadat.github.io](https://kikisyahadat.github.io)
+## Tentang [kikisyahadat.github.io]({{site.baseurl}})
 
 Blog ini dibuat untuk menyambung blog sebelumnya yang berada di **Blogger/Blogspot** dan *pindah rumah* dilakukan pada tanggal 22 Juli 2020 bertepatan dengan hari ulang tahun laptop saya yang saya beli tahun 2013 dan juga bertepatan dengan tanggal 1 Dzulhijjah 1441 H. Dulu saya beli laptop ini di tanggal 13 Ramadhan 1434 H setelah mendapat THR (pinjaman) dari orang tua untuk mengerjakan tugas di sekolah.
 
@@ -36,7 +36,7 @@ Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat bert
 
 Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi, suvenir atau apa pun yang Anda mau. Anda bisa mengirimkannya melalui akun **DANA** atau **OVO**:
 
-![DANA](assets/images/2020/07/22/dana.webp) ![OVO](assets/images/2020/07/22/ovo.webp)
+![DANA](dana.webp) ![OVO](ovo.webp)
 
 Atau Anda bisa menghubungi saya melalui [Telegram](https://t.me/KikiSyahadat).
 

@@ -177,7 +177,7 @@ Proses instalasi sudah selesai, Anda bisa melanjutkan ke proses selanjutnya (aka
 Setelah membuat **Snapshot**, fitur **Factory Reset**, memasang paket `plasma5-session`, `sddm`, `plasma-nm5`, `plasma5-pa` dan `konsole`, berikut penampakannya:
 
 <div class="card mb-3">
-    <img class="card-img-top" src="{{site.baseurl}}/assets/images/2020/08/23/kde-minimal.webp"/>
+    <img class="card-img-top" src="kde-minimal.webp"/>
     <div class="card-body bg-light">
         <div class="card-text"> openSUSE Leap 15.2 KDE Plasma 5.18</div>
     </div>
