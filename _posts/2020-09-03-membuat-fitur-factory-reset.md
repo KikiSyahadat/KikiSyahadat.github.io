@@ -57,7 +57,7 @@ Service *snapper-timeline.timer* dimaksudkan untuk membuat Snapshot setiap jam. 
 
 `systemctl disable --now snapper-timeline.timer`
 
-### Pastika Kernel GA tidak akan terhapus
+### Pastikan Kernel GA tidak akan terhapus
 
 Periksa jika `multiversion.kernels` di /etc/zypp/zypp.conf sudah menyertakan `oldest` sebagai salah satu opsi. Ini juga sudah dibahas di tulisan [minimal/custom install openSUSE]({{site.baseurl}}/2020/08/23/minimal-custom-install-opensuse.html#modifikasi-etczyppzyppconf). Lihat dengan `grep`:
 
@@ -152,13 +152,13 @@ Sesuaikan konfigurasi yang dibutuhkan:
 
 Untuk mengganti Snapshot timeline yang dibuat setiap jam, kita lebih baik membuat Snapshot yang dibuat setiap kali komputer dinyalakan.
 
-Snapper menyediakan sebuah *service* dengan nama *snapper-boot.service* dan *snapper-boot.timer*, tapi secara *default* tidak aktif. Kita perlu memodifikasi *service* ini karena dia hanya membuat Snapshot untuk konfigurasi *root* saja. Untuk meyakinkan, periksa apakah *snapshot-boot.timer* berjalan:
+Snapper menyediakan sebuah *service* dengan nama *snapper-boot.service* dan *snapper-boot.timer*, tapi secara *default* tidak aktif. Kita perlu memodifikasi *service* ini karena dia hanya membuat Snapshot untuk konfigurasi *root* saja. Untuk meyakinkan, periksa apakah *snapper-boot.timer* berjalan:
 
-`systemctl status snapshot-boot.timer`
+`systemctl status snaper-boot.timer`
 
 Jika berjalan, matikan:
 
-`systemctl disable snapshot-boot.timer`
+`systemctl disable snapper-boot.timer`
 
 Salin file /usr/lib/systemd/system/snapper-boot.service ke /etc/systemd/system/ untuk dimodifikasi:
 
@@ -192,7 +192,7 @@ Perintah tersebut untuk menghapus Snapshot nomor 1. Jika ada Snapshot lain selai
 
 Jalankan ulang (*reboot*) komputer untuk membuat Snapshot pertama. Kita perlu membuat Snapshot saat komputer *booting* karena saat itu kita sedang tidak melakukan apa-apa di komputer, sehingga data yang diambil oleh Snapshot akan sempurna. Tidak akan ada yang terambil separuh karena sedang kita modifikasi misalnya.
 
-### Buat titik *Factory Reset*
+### Buat titik *factory reset*
 
 Setelah komputer dijalankan ulang, periksa apakah Snapshot berhasil dibuat:
 
