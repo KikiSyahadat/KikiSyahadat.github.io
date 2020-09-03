@@ -65,7 +65,9 @@ Periksa jika `multiversion.kernels` di /etc/zypp/zypp.conf sudah menyertakan `ol
 
 Jika belum ada opsi `oldest` seperti ini:
 
-`multiversion.kernels = latest,latest-1,running`
+```
+multiversion.kernels = latest,latest-1,running
+```
 
 Tambahkan opsi `oldest`:
 
@@ -73,7 +75,9 @@ Tambahkan opsi `oldest`:
 
 Yang akan membuatnya berubah menjadi seperti ini:
 
-`multiversion.kernels = latest,latest-1,running,oldest`
+```
+multiversion.kernels = latest,latest-1,running,oldest
+```
 
 ## Membuat Snapshot
 
