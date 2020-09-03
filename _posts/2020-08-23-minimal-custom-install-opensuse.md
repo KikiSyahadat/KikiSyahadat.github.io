@@ -165,9 +165,9 @@ Jika Anda ingin menyimpan semua *file* **.rpm** yang diunduh saat memasang paket
 
 ## Langkah selanjutnya
 
-Proses instalasi sudah selesai, Anda bisa melanjutkan ke proses selanjutnya (akan dibahas di tulisan berikutnya):
+Proses instalasi sudah selesai, Anda bisa melanjutkan ke proses selanjutnya:
 
-1. Membuat **Snapshot** dan fitur **Factory Reset**.
+1. [Membuat **Snapshot** dan fitur **Factory Reset**.]({{site.baseurl}}/2020/09/03/membuat-fitur-factory-reset.html)
 2. Memasang **Desktop Environment**/**Window Manager** dan **Display Manager**.
 3. Memasang software aplikasi yang dibutuhkan untuk komputasi harian.
 4. Memasang modul-modul **YaST2** yang dibutuhkan.
