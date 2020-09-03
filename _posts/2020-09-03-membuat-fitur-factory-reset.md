@@ -9,7 +9,7 @@ tags:
   - openSUSE
 ---
 
-Tidak seperti Android atau Windows yang sudah diatur oleh pabrikan, *factory reset* di Linux bisa diatur seperti apa kita mau saat kita melakukan *factory reset*. Kita bisa mengubah konfigurasi atau memasang software yang jika komputer kita kembalikan ke *factory reset*, konfigurasi atau software tersebut tidak ikut hilang. Seperti pada tulisan [minimal/custom install openSUSE]({{site.baseurl}}/minimal-custom-install-opensuse.html), kita mengubah konfigurasi /etc/zypp/zypp.conf dan beberapa opsi repositori sebelum membuat *factory reset*. Pengaturan yang sudah diubah ini tidak akan kembali ke *default* jika kita melakukan *factory reset*.
+Tidak seperti Android atau Windows yang sudah diatur oleh pabrikan, *factory reset* di Linux bisa diatur seperti apa kita mau saat kita melakukan *factory reset*. Kita bisa mengubah konfigurasi atau memasang software yang jika komputer kita kembalikan ke *factory reset*, konfigurasi atau software tersebut tidak ikut hilang. Seperti pada tulisan [minimal/custom install openSUSE]({{site.baseurl}}/2020/08/23/minimal-custom-install-opensuse.html), kita mengubah konfigurasi /etc/zypp/zypp.conf dan beberapa opsi repositori sebelum membuat *factory reset*. Pengaturan yang sudah diubah ini tidak akan kembali ke *default* jika kita melakukan *factory reset*.
 
 <!--more-->
 
@@ -21,11 +21,11 @@ Jika Anda ingin membuat fitur *factory reset* di openSUSE, disarankan untuk tida
 
 ### Atur konfigurasi yang diperlukan
 
-Atur konfigurasi yang diperlukan, seperti mengubah beberapa opsi di /etc/zypp/zypp.conf dan opsi repositori seperti yang dilakukan di tulisan [minimal/*custom* install openSUSE]({{site.baseurl}}/minimal-custom-install-opensuse.html#pasca-instalasi) supaya kita tidak perlu mengatur lagi opsi-opsi tersebut setelah melakukan *factory reset*.
+Atur konfigurasi yang diperlukan, seperti mengubah beberapa opsi di /etc/zypp/zypp.conf dan opsi repositori seperti yang dilakukan di tulisan [minimal/*custom* install openSUSE]({{site.baseurl}}/2020/08/23/minimal-custom-install-opensuse.html#pasca-instalasi) supaya kita tidak perlu mengatur lagi opsi-opsi tersebut setelah melakukan *factory reset*.
 
 ### Pastikan Snapper terpasang
 
-Di openSUSE, fitur *factory reset* bisa dibuat dengan menggunakan **Snapper** yang sudah tersedia di dalam installer. Jika Anda memasang openSUSE dengan cara [minimal/*custom* install]({{site.baseurl}}/minimal-custom-install-opensuse.html#software-selection-and-system-tasks), pastikan memilih paket `snapper` di layar **Software Selection and System Tasks**. Jika Anda memasang openSUSE dengan cara standar, paket tersebut sudah otomatis ikut terpasang.
+Di openSUSE, fitur *factory reset* bisa dibuat dengan menggunakan **Snapper** yang sudah tersedia di dalam installer. Jika Anda memasang openSUSE dengan cara [minimal/*custom* install]({{site.baseurl}}/2020/08/23/minimal-custom-install-opensuse.html#software-selection-and-system-tasks), pastikan memilih paket `snapper` di layar **Software Selection and System Tasks**. Jika Anda memasang openSUSE dengan cara standar, paket tersebut sudah otomatis ikut terpasang.
 
 Jika saat instalasi Anda tidak memilih untuk memasang Snapper, pasang dari DVD installer. Login sebagai root untuk mempercepat proses. Jika sudah terlanjur masuk sebagai user standar, pindah ke root:
 
@@ -51,15 +51,15 @@ Aktifkan kembali repositori `repo-oss`, `repo-non-oss`, `repo-update` dan `repo-
 
 `zypper modifyrepo -e repo-oss repo-non-oss repo-update repo-update-non-oss`
 
-### Matikan snapper-timeline.timer
+### Matikan *snapper-timeline.timer*
 
-Service snapper-timeline.timer dimaksudkan untuk membuat Snapshot setiap jam. Kita tidak ingin mempunyai Snapshot sebanyak itu, jadi kita perlu mematikannya sebelum membuat konfigurasi Snapper:
+Service *snapper-timeline.timer* dimaksudkan untuk membuat Snapshot setiap jam. Kita tidak ingin mempunyai Snapshot sebanyak itu, jadi kita perlu mematikannya sebelum membuat konfigurasi Snapper:
 
 `systemctl disable --now snapper-timeline.timer`
 
 ### Pastika Kernel GA tidak akan terhapus
 
-Periksa jika `multiversion.kernels` di /etc/zypp/zypp.conf sudah menyertakan `oldest` sebagai salah satu opsi. Ini juga sudah dibahas di tulisan [minimal/custom install openSUSE]({{site.baseurl}}/2020/08/23/minimal-custom-install-opensuse.html). Lihat dengan `grep`:
+Periksa jika `multiversion.kernels` di /etc/zypp/zypp.conf sudah menyertakan `oldest` sebagai salah satu opsi. Ini juga sudah dibahas di tulisan [minimal/custom install openSUSE]({{site.baseurl}}/2020/08/23/minimal-custom-install-opensuse.html#modifikasi-etczyppzyppconf). Lihat dengan `grep`:
 
 `grep -i 'multiversion.kernels' /etc/zypp/zypp.conf`
 
@@ -128,18 +128,6 @@ Lihat hasilnya:
 
 `snapper list-configs`
 
-Akan muncul tabel seperti ini:
-
-Config | Subvolume
------- | ---------
-home   | /home
-local  | /usr/local
-opt    | /opt
-root   | /
-srv    | /srv
-su     | /root
-var    | /var
-
 ### Sesuaikan setelan konfigurasi
 
 Untuk melihat setelan konfigurasi Snapper, jalankan:
@@ -152,7 +140,7 @@ Untuk melihat setelan semua konfigurasi:
 
 Sesuaikan konfigurasi yang dibutuhkan:
 
-`for config in \`. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS\`; do snapper -c $config set-config TIMELINE_CREATE=no TIMELINE_LIMIT_DAILY=7 TIMELINE_LIMIT_HOURLY=6 TIMELINE_LIMIT_MONTHLY=0 TIMELINE_LIMIT_WEEKLY=4 TIMELINE_LIMIT_YEARLY=0; done`
+``for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config set-config TIMELINE_CREATE=no TIMELINE_LIMIT_DAILY=7 TIMELINE_LIMIT_HOURLY=6 TIMELINE_LIMIT_MONTHLY=0 TIMELINE_LIMIT_WEEKLY=4 TIMELINE_LIMIT_YEARLY=0; done``
 
 `TIMELINE_CREATE` adalah opsi untuk membuat Snapshot setiap jam. Kita tidak ingin membuat Snapshot setiap jam, jadi opsi ini kita isi dengan `no`. Opsi `TIMELINE_LIMIT` adalah untuk membatasi jumlah Snapshot berdasarkan kalender. Anda bisa mengaturnya sesuai kebutuhan.
 
@@ -178,7 +166,7 @@ Hapus opsi `ExecStart` untuk diganti yang baru:
 
 Buat `ExecStart` baru:
 
-`echo -e "ExecStart=/bin/bash -c 'for config in \\`. /etc/sysconfig/snapper; echo \$SNAPPER_CONFIGS\\`; do /usr/bin/snapper -c \$config create -c timeline; done'" >> /etc/systemd/system/snapper-boot.service`
+``echo -e "ExecStart=/bin/bash -c 'for config in \`. /etc/sysconfig/snapper; echo \$SNAPPER_CONFIGS\`; do /usr/bin/snapper -c \$config create -c timeline; done'" >> /etc/systemd/system/snapper-boot.service``
 
 Kita akan buat *snapper-boot.service* berjalan mandiri, tanpa harus dipicu oleh *snapper-boot.timer* seperti sebelum dimodifikasi. Untuk itu kita perlu menambahkan bagian `[Install]`:
 
@@ -194,7 +182,7 @@ Periksa jika ada Snapshot yang sudah terlanjur dibuat oleh `snapper-timeline.tim
 
 Kita berharap hanya ada Snapshot 0 saja. Jika ada Snapshot lain, hapus:
 
-`for config in \`. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS\`; do snapper -c $config delete --sync 1`
+``for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config delete --sync 1``
 
 Perintah tersebut untuk menghapus Snapshot nomor 1. Jika ada Snapshot lain selain nomor 1, hapus juga dengan mengubah angkanya.
 
@@ -208,7 +196,7 @@ Setelah komputer dijalankan ulang, periksa apakah Snapshot berhasil dibuat:
 
 Jika berhasil, seharusnya ada Snapshot nomor 1 di semua konfigurasi dengan kolom `Cleanup` berisi `timeline`. Modifikasi Snapshot tersebut supaya tidak terhapus:
 
-`for config in \`. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS\`; do snapper -c $config modify -c '' -d 'factory reset' -u 'reset=yes' 1`
+``for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config modify -c '' -d 'factory reset' -u 'reset=yes' 1``
 
 Periksa hasilnya:
 
@@ -224,7 +212,7 @@ Untuk melakukan *factory reset*, Anda perlu *boot* ke Kernel terlama dengan memi
 
 Ini akan membawa Anda ke *Virtual Console* (CLI). Login sebagai root, lalu jalankan:
 
-`for config in \`. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS\`; do snapper -c $config undochange 1..0; done`
+``for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config undochange 1..0; done``
 
 Reboot.
 
@@ -234,9 +222,11 @@ Service `snapper-boot.service` yang tadi kita modifikasi akan membuat Snapshot s
 
 Misalnya jika Anda mengalami *error* di komputer, cukup *reboot* dan masuk ke *Virtual Console* seperti pada proses akan melakukan *factory reset* di atas. Lalu jalankan `snapper undochange` ke nomor Snapshot sebelum *error* terjadi, misalnya:
 
-`for config in \`. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS\`; do snapper -c $config undochange 1234..0; done`
+``for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config undochange 1234..0; done``
 
 Akan berguna juga jika kita ingin mencoba *software*, tapi ternyata kita tidak puas dengan *software* tersebut. Kita bisa meresetnya ke Snapshot sebelum *software* tersebut dipasang.
+
+## Pastikan Snapshot tetap serasi
 
 Pastikan Anda rutin memeriksa nomor Snapshot supaya tetap sama di semua konfigurasi dengan:
 
