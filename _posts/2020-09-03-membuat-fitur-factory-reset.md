@@ -154,7 +154,7 @@ Untuk mengganti Snapshot timeline yang dibuat setiap jam, kita lebih baik membua
 
 Snapper menyediakan sebuah *service* dengan nama *snapper-boot.service* dan *snapper-boot.timer*, tapi secara *default* tidak aktif. Kita perlu memodifikasi *service* ini karena dia hanya membuat Snapshot untuk konfigurasi *root* saja. Untuk meyakinkan, periksa apakah *snapper-boot.timer* berjalan:
 
-`systemctl status snaper-boot.timer`
+`systemctl status snapper-boot.timer`
 
 Jika berjalan, matikan:
 
