@@ -136,7 +136,7 @@ Untuk melihat setelan konfigurasi Snapper, jalankan:
 
 Untuk melihat setelan semua konfigurasi:
 
-`for config in \`. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS\`; do snapper -c $config get-config; done`
+``for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config get-config; done``
 
 Sesuaikan konfigurasi yang dibutuhkan:
 
@@ -208,7 +208,7 @@ Selesai. Proses selanjutnya Anda tinggal memasang **Desktop Environment**/**Wind
 
 ## Cara melakukan *factory reset*
 
-Untuk melakukan *factory reset*, Anda perlu *boot* ke Kernel terlama dengan memilih opsi **Advanced options for openSUSE Leap/Tumbleweed** pada tampilan **Grub2**. Setelah opsi tersebut dipilih dengan menekan **Enter**, akan ada daftar Kernel yang terpasang. Arahkan pada Kernel dengan nomor versi terkecil (paling bawah), lalu tekan **e** pada keyboard untuk mengubah parameternya. Arahkan ke teks bertuliskan `linuxefi` atau `linux`, tekan tombol **End** pada keyboard untuk mengarahkan kursor ke ujung teks. Tambahkan spasi dan angka **3**, lalu tekan **F10**.
+Untuk melakukan *factory reset*, Anda perlu *boot* ke Kernel pertama (Kernel yang dipasang saat instalasi openSUSE) dengan memilih opsi **Advanced options for openSUSE Leap/Tumbleweed** pada tampilan **Grub2**. Setelah opsi tersebut dipilih dengan menekan **Enter**, akan ada daftar Kernel yang terpasang. Arahkan pada pilihan Kernel paling bawah (tanpa tulisan *recovery mode*), lalu tekan **e** pada keyboard untuk mengubah parameternya. Arahkan ke teks bertuliskan `linuxefi` atau `linux`, tekan tombol **End** pada keyboard untuk mengarahkan kursor ke ujung teks. Tambahkan spasi dan angka **3**, lalu tekan **F10**.
 
 Ini akan membawa Anda ke *Virtual Console* (CLI). Login sebagai root, lalu jalankan:
 
