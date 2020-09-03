@@ -176,6 +176,24 @@ Kita akan buat *snapper-boot.service* berjalan mandiri, tanpa harus dipicu oleh 
 
 `echo -e "\n[Install]\nWantedBy=multi-user.target" >> /etc/systemd/system/snapper-boot.service`
 
+Lihat hasilnya dengan perintah `cat`:
+
+`cat /etc/systemd/system/snapper-boot.service`
+
+Hasilnya seperti ini:
+
+```
+[Unit]
+Description=Take snapper snapshot of root on boot
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c 'for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do /usr/bin/snapper -c $config create -c timeline; done'
+
+[Install]
+WantedBy=multi-user.target
+```
+
 Aktifkan *service* tersebut:
 
 `systemctl enable snapper-boot.service`
@@ -239,4 +257,14 @@ Pastikan Anda rutin memeriksa nomor Snapshot supaya tetap sama di semua konfigur
 Jika ada salah satu konfigurasi Snapper yang nomor Snapshot-nya tidak sama dengan konfigurasi yang lain, buat Snapshot baru supaya jadi sama:
 
 `snapper -c <nama_konfigurasi> create -c timeline`
+
+## Peringatan!
+
+Karena *subvolume* /home dimasukkan ke daftar konfigurasi Snapper, jika kita melakukan *factory reset*, semua data yang ada di sana akan ikut hilang. Jadi disarankan untuk membuat partisi khusus untuk menyimpan data-data penting seperti halnya pengguna Windows biasa menyimpan data di *drive* D, E, F, dan seterusnya. Biarkan hanya file-file konfigurasi saja yang ada di direktori home atau data-data sementara/tidak penting yang Anda tidak akan menyesal kehilangannya.
+
+Atau Anda bisa melakukan reset dengan mengecualikan konfigurasi *home* dengan perintah berikut:
+
+``for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS | sed 's/ home//'`; do snapper -c $config undochange 1..0; done``
+
+Dengan resiko konfigurasi-konfigurasi dari *software* yang direset yang berada di direktori home tidak akan ikut terhapus yang mungkin akan menyebabkan konflik dengan konfigurasi baru dari *software* yang dipasang kemudian. Seperti jika Anda mengubah Desktop Environment dengan Desktop Environment yang lain.
 
