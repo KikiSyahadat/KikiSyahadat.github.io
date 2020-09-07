@@ -1,7 +1,7 @@
 ---
 title:  Minimal/custom install openSUSE
 tags:
-  - Install
+  - Instalasi
   - Panduan
   - openSUSE
 ---

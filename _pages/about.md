@@ -40,5 +40,7 @@ Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan say
 
 ![DANA](theme/img/dana.webp) ![OVO](theme/img/ovo.webp)
 
+Atau melalui rekening Bank BTPN Cabang Kota Kasablanka dengan Nomor Rekening (213) 90013531015.
+
 Atau Anda bisa menghubungi saya melalui [Telegram](https://t.me/KikiSyahadat).
 
