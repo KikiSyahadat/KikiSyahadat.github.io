@@ -62,6 +62,7 @@ Paket-paket pelengkap
 - `tlp-rdw`. Otomatis membawa paket `tlp` sebagai dependensi. Untuk manajemen daya.
 - `smartmontools`. Monitor perangkat SMART (Self-Monitoring, Analysis and Reporting Technology System).
 - `grub2-branding-openSUSE`. Jika ingin menu Grub *bling-bling*. Tanpa paket ini tampilan Grub hanya layar hitam dengan tulisan putih.
+- `grub2-snapper-plugin`. Supaya bisa *boot* ke *read-only snapshot* melalui menu Grub.
 - `plymouth`. Jika ingin layar *booting* *bling-bling*. Tanpa ini, saat *booting* hanya layar hitam.
 - `command-not-found`. Untuk mempermudah mencari paket yang harus dipasang. Ketika kita menjalankan suatu perintah mendapat respon `bash: command not found`, cara termudah mencari paket yang harus dipasang adalah dengan perintah `cnf <perintah>` lewat paket ini.
 - `udisks2`. Untuk mempermudah *mounting* perangkat internal atau eksternal (seperti *flashdisk*) dari File Manager Dolphin.
@@ -74,7 +75,7 @@ Paket-paket pelengkap
 - `plasma5-addons`. Tambahan koleksi Widget Plasma.
 - `vim` atau `nano`. Jika butuh teks editor CLI.
 - `sudo`. Untuk mengganti `su -c "perintah"` dengan `sudo perintah`, jika Anda lebih terbiasa atau lebih nyaman dengan `sudo`.
-- Modul-modul YaST. Cari dengan perintah `zypper search yast`. Pasang sesuai dengan kebutuhan. Jangan lupa untuk memasang `libyui-qt-pkg*` dan/atau `libyui-ncurses-pkg*` jika tidak otomatis ikut terpasang. Ganti `*` dengan nomor yang sesuai dengan hasil pencarian menggunakan `zypper search libyui`.
+- Modul-modul YaST. Cari dengan perintah `zypper search yast`. Pasang sesuai dengan kebutuhan. Jangan lupa untuk memasang `libyui-qt-pkg*` dan/atau `libyui-ncurses-pkg*` jika tidak otomatis ikut terpasang. Ganti `*` dengan nomor yang sesuai dengan hasil pencarian menggunakan `zypper search libyui`. Setelah memasang YaST, jangan lupa untuk mengubah parameter `USE_SNAPPER` di /etc/sysconfig/yast2 menjadi `no` dengan perintah `su -c "sed -i 's/USE_SNAPPER=\"yes/USE_SNAPPER=\"no/' /etc/sysconfig/yast2"`. Karena jika tidak diubah, YaST akan membuat Snapshot di konfigurasi *root* setiap kali kita membuka modul YaST yang akan membuat nomor Snapshot menjadi tidak serasi antara konfigurasi *root* dengan konfigurasi lainnya.
 - Dan lain-lain. Silakan cari dengan perintah `zypper search <keyword>` jika ada paket yang dibutuhkan yang ada dalam installer.
 
 Setelah semua paket yang dibutuhkan yang ada dalam installer dipasang, cabut/keluarkan piringan DVD atau *flashdisk* installer. Lalu matikan kembali repositori installer tersebut:
@@ -129,3 +130,4 @@ Untuk pengguna Plasma 5 pun tidak perlu mengikuti daftar ini, karena saya juga t
 
 Jika ada paket penting yang tidak tercantum di sini, [kabari saya](https://t.me/KikiSyahadat).
 
+Jika Anda ingin menyumbang laptop baru supaya saya bisa melakukan eksperimen, [kabari saya](https://t.me/KikiSyahadat).
