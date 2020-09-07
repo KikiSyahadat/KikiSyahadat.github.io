@@ -28,7 +28,7 @@ Setelah itu masukkan piringan DVD atau *flashdisk* yang digunakan untuk instalas
 Paket-paket yang mungkin perlu adalah:
 
 - `plasma5-session` atau `plasma5-session-wayland`: Desktop Environment. Perbedaan dari kedua paket tersebut adalah, jika memasang `plasma5-session-wayland` akan ikut membawa `plasma5-session` sebagai dependensi, tapi tidak sebaliknya. Jika memasang `plasma5-session` kita hanya bisa login ke sesi **X11** saja, tapi `plasma5-session-wayland`, selain bisa ke **X11**, juga bisa ke sesi **Wayland** dan **Full Wayland**.
-- `sddm`: Display Manager. Setelah memasang paket ini saya bisanya mengubah service *display-manager.service* dengan *sddm.service* dengan perintah: `su -c "systemctl disable display-manager.service && systemctl enable sddm.service"`. Jika perlu login otomatis, ubah parameter `DISPLAYMANAGER_AUTOLOGIN` di /etc/sysconfig/displaymanager dengan perintah: `su -c "sed -i 's/DISPLAYMANAGER_AUTOLOGIN=\"/DISPLAYMANAGER_AUTOLOGIN=\"$USER/' /etc/sysconfig/displaymanager"`.
+- `sddm`: Display Manager. Setelah memasang paket ini saya bisanya mengganti service *display-manager.service* dengan *sddm.service* dengan perintah: `su -c "systemctl disable display-manager.service && systemctl enable sddm.service"`. Jika perlu login otomatis, ubah parameter `DISPLAYMANAGER_AUTOLOGIN` di /etc/sysconfig/displaymanager dengan perintah: `su -c "sed -i 's/DISPLAYMANAGER_AUTOLOGIN=\"/DISPLAYMANAGER_AUTOLOGIN=\"$USER/' /etc/sysconfig/displaymanager"`.
 - `plasma-nm5`: NetworkManager applet.
 - `plasma5-pa`: Volume Manager applet.
 - `dolphin`: File Manager.
@@ -91,11 +91,11 @@ Setelah selesai dengan semua proses instalasi paket dari installer, jalankan ula
 
 Untuk openSUSE Leap 15.2 (untuk Leap selain 15.2, sesuaikan angka versinya):
 
-`su -c "zypper addrepo --name "Packman Repository" https://repo.opensuse.id/packman/openSUSE_Leap_15.2/ repo-packman"`
+`su -c "zypper addrepo --name 'Packman Repository' https://repo.opensuse.id/packman/openSUSE_Leap_15.2/ repo-packman"`
 
 Untuk openSUSE Tumbleweed:
 
-`su -c "zypper addrepo --name "openSUSE-Tumbleweed-Packman" https://repo.opensuse.id/packman/openSUSE_Tumbleweed/ repo-packman"`
+`su -c "zypper addrepo --name 'openSUSE-Tumbleweed-Packman' https://repo.opensuse.id/packman/openSUSE_Tumbleweed/ repo-packman"`
 
 Nama setelah opsi `--name` silakan ubah sesuai keinginan supaya mudah diingat atau supaya cocok dengan penamaan repositori lainnya. Untuk melihat daftar repositori, gunakan perintah `zypper repos`.
 
@@ -113,7 +113,7 @@ Setelah selesai, coba VLC untuk memainkan berbagai format audio/video. Seharusny
 
 ## Pasang paket lain yang tidak tersedia di installer
 
-Pasang paket yang tidak ada di dalam installer:
+Paket-paket yang mungkin perlu ditambahkan:
 
 - `opi`. Untuk memasang paket dari OBS. Pastikan untuk memasang `sudo` juga jika memasang paket ini. Cara mencari dan memasang paket dari OBS dengan `opi` adalah dengan perintah `opi <keyword>`, lalu ikuti petunjuknya.
 - `falkon`. Jika tidak suka dengan Firefox.
