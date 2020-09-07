@@ -168,9 +168,9 @@ Jika Anda ingin menyimpan semua *file* **.rpm** yang diunduh saat memasang paket
 Proses instalasi sudah selesai, Anda bisa melanjutkan ke proses selanjutnya:
 
 1. [Membuat **Snapshot** dan fitur **Factory Reset**.]({{site.baseurl}}/2020/09/03/membuat-fitur-factory-reset.html)
-2. Memasang **Desktop Environment**/**Window Manager** dan **Display Manager**.
-3. Memasang software aplikasi yang dibutuhkan untuk komputasi harian.
-4. Memasang modul-modul **YaST2** yang dibutuhkan.
+2. [Memasang **Desktop Environment**/**Window Manager** dan **Display Manager**.]({{site.baseurl}}/2020/09/07/minimal-custom-install-kde.html)
+3. [Memasang software aplikasi yang dibutuhkan untuk komputasi harian.]({{site.baseurl}}/2020/09/07/minimal-custom-install-kde.html)
+4. [Memasang modul-modul **YaST2** yang dibutuhkan.]({{site.baseurl}}/2020/09/07/minimal-custom-install-kde.html)
 
 ## Penampakan
 
