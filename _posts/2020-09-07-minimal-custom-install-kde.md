@@ -53,7 +53,7 @@ Paket-paket pelengkap
 - `btrfsmaintenance`. Jika menggunakan Btrfs, untuk *scrub*, *balance* dan *trim* otomatis dalam jangka waktu tertentu.
 - `alsa-plugins-pulse`. Tanpa ini PulseAudio tidak bisa memutar suara dari lebih dari satu sumber secara bersamaan.
 - `usb_modeswitch`, `ModemManager` dan `mobile-broadband-provider-info`. Jika Anda menggunakan modem mobile broadband (operator selular atau sejenisnya). Bisa juga ditambahkan `modem-manager-gui` jika perlu.
-- `kdeconnect-kde`. Untuk menghubungkan komputer dengan *smartphone* Android dan perangkat lain.
+- `kdeconnect-kde`. Untuk menghubungkan komputer dengan *smartphone* Android dan perangkat lain. Jangan lupa untuk memasang `openssh` untuk bisa membuka tempat penyimpanan Android dari Dolphin.
 - `kio-extras5`. Komponen tambahan KIO. Salah satu fungsinya supaya bisa menampilkan preview file di File Manager Dolphin atau Konqueror.
 - `ffmpegthumbs`. Untuk menampilkan preview file video.
 - `libqt5-qtimageformats`. Beberapa format gambar, seperti .webp, tidak bisa dibuka di Gwenview tanpa paket ini.
