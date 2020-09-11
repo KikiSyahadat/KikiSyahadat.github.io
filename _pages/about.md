@@ -15,6 +15,8 @@ Jika ada yang ingin menyumbang laptop baru untuk saya akan saya terima dengan se
 
 Blog ini tidak menyediakan kolom komentar. Jadi jika Anda ingin mengomentari sesuatu, *chat* saya di [Telegram](https://t.me/KikiSyahadat).
 
+Jika ingin berlangganan blog ini menggunakan RSS Reader [kikisyahadat.github.io/feed.xml]({{site.baseurl}}/feed.xml).
+
 ## Linux dan openSUSE
 
 - 2007 saya pertama kali membeli komputer dengan sistem operasi Windows XP.
@@ -32,7 +34,7 @@ Saya menggunakan openSUSE Tumbleweed yang perubahannya cepat karena merupakan *r
 
 Manusia tidak akan terlepas dari kesalahan. Terkadang kita mengucapkan atau melakukan sesuatu yang salah. Di saat seperti inilah kita butuh orang lain untuk mengoreksi kesalahan kita agar kita bisa memperbaikinya sebelum terbawa mati.
 
-Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan *ngedumel* atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore.
+Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan menggerutu atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore.
 
 ## Belikan saya kopi atau suvenir {#buy-me-coffee}
 
