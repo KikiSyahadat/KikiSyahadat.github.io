@@ -28,7 +28,7 @@ Setelah itu masukkan piringan DVD atau *flashdisk* yang digunakan untuk instalas
 Paket-paket yang mungkin perlu adalah:
 
 - `plasma5-session` atau `plasma5-session-wayland`: Desktop Environment. Perbedaan dari kedua paket tersebut adalah, jika memasang `plasma5-session-wayland` akan ikut membawa `plasma5-session` sebagai dependensi, tapi tidak sebaliknya. Jika memasang `plasma5-session` kita hanya bisa login ke sesi **X11** saja, tapi `plasma5-session-wayland`, selain bisa ke **X11**, juga bisa ke sesi **Wayland** dan **Full Wayland**.
-- `sddm`: Display Manager. Setelah memasang paket ini saya bisanya mengganti service *display-manager.service* dengan *sddm.service* dengan perintah: `su -c "systemctl disable display-manager.service && systemctl enable sddm.service"`. Jika perlu login otomatis, ubah parameter `DISPLAYMANAGER_AUTOLOGIN` di /etc/sysconfig/displaymanager dengan perintah: `su -c "sed -i 's/DISPLAYMANAGER_AUTOLOGIN=\"/DISPLAYMANAGER_AUTOLOGIN=\"$USER/' /etc/sysconfig/displaymanager"`.
+- `sddm`: Display Manager. Setelah memasang paket ini saya bisanya mengganti service *display-manager.service* dengan *sddm.service* dengan perintah: `su -c "systemctl disable display-manager.service && systemctl enable sddm.service"`. Jika perlu login otomatis, ubah parameter `DISPLAYMANAGER_AUTOLOGIN` di /etc/sysconfig/displaymanager dengan perintah: `su -c "sed -i 's/DISPLAYMANAGER_AUTOLOGIN=\"\"/DISPLAYMANAGER_AUTOLOGIN=\"$USER\"/' /etc/sysconfig/displaymanager"`.
 - `plasma-nm5`: NetworkManager applet.
 - `plasma5-pa`: Volume Manager applet.
 - `dolphin`: File Manager.
