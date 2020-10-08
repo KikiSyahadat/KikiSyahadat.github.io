@@ -8,6 +8,8 @@ tags:
 
 *Kedamaian Allah, Rahmat-Nya serta ampunan-Nya semoga terlimpah atas kamu dan saudara-saudaramu, sepanjang siang dan malam berjalan, sore hari ke sore hari selanjutnya, sepanjang bulan terus muncul setelah sirnanya dan 'Farkadan' (bintang Beta dan Ursae Minoris) bertemu.*
 
+<!--more-->
+
 Saudara-saudara yang tekun, teman-teman yang giat dan sarana penghiburku di dunia pemisahan dan pengasingan ini,
 
 Karena Allah Yang Maha Esa telah membuatmu mampu berbagi makna yang Dia juga telah berikan padaku, engkau pastilah berhak mengetahui isi hatiku juga. Aku tidak bermaksud untuk mengaitkan kesengsaraan yang tak tertahankan yang timbul dari pemisahan ini, karena itu mungkin bisa menyebabkan kesengsaraan yang dalam terhadapmu. Apa yang aku ingin tuliskan adalah menulis keadaan di sekitarku.
