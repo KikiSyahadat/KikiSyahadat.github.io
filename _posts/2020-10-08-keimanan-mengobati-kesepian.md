@@ -4,7 +4,7 @@ tags:
   - Renungan
 ---
 
-*<p align="center">Tiada sesuatu pun yang tidak memuliakan Nama-Nya dengan puji-pujian</p>*
+*Tiada sesuatu pun yang tidak memuliakan Nama-Nya dengan puji-pujian*
 
 *Kedamaian Allah, Rahmat-Nya serta ampunan-Nya semoga terlimpah atas kamu dan saudara-saudaramu, sepanjang siang dan malam berjalan, sore hari ke sore hari selanjutnya, sepanjang bulan terus muncul setelah sirnanya dan 'Farkadan' (bintang Beta dan Ursae Minoris) bertemu.*
 
