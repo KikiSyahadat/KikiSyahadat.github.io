@@ -26,6 +26,6 @@ Ada banyak aspek alasan kenapa kematian merupakan rahmat bagi umat manusia. Izin
 
 ---
 
-- Dikutip dari buku "Menjawab yang tak terjawab, menjelaskan yang tak terjelaskan", edisi bahasa Indonesia "The Letter 1 & 2", seri ke-2 "Risalah An-Nur" karya Syekh Said Nursi.
+- Dikutip dari buku **Menjawab yang tak terjawab, menjelaskan yang tak terjelaskan**, edisi bahasa Indonesia dari **Al-Maktubat** (*The Letters*), seri ke-2 **Risalah An-Nur** karya Syekh Said Nursi.
 - Untuk memperingati meninggalnya orang tua kami **H. Muhammad Karya Subki** yang wafat pada tanggal 15 Dzulhijjah 1434 H dan **Siti Zaenab** yang wafat pada tanggal 17 Syawal 1439 H.
 
