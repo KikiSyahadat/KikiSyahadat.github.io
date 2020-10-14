@@ -136,7 +136,7 @@ Jika Anda pernah mengubah konfigurasi di /etc dan terhapus kembali saat melakuka
 
 Setelah komputer dijalankan ulang dan login, lihat nomor Snapshot yang baru dibuat saat *booting*:
 
-``su -c 'for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config list; done``
+``su -c 'for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config list; done'``
 
 Lihat nomor Snapshot terakhir, lalu buat Snapshot tersebut sebagai *titik reset* baru:
 
