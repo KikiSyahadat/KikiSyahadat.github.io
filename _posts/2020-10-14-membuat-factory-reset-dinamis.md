@@ -92,6 +92,8 @@ Proses tersebut akan membawa kita ke mode CLI, dari sini kita lakukan *factory r
 
 Lihat nomor Snapshot dari *titik reset* terakhir (paling bawah). Jika kita belum pernah melakukan *factory reset* sebelumnya, maka *titik reset* hanya satu, yaitu angka 1.
 
+Lakukan *factory reset*:
+
 ``su -c 'for config in `. /etc/sysconfig/snapper; echo $SNAPPER_CONFIGS`; do snapper -c $config undochange 1..0'``
 
 Ubah angka 1 dengan angka Snapshot dari *titik reset* terakhir jika Anda pernah mengubah *titik reset* sebelumnya. Setelah selesai, jalankan ulang/*reboot* komputer.
