@@ -114,7 +114,7 @@ Setelah komputer dijalankan ulang, kita akan kembali ke mode CLI. Lihat daftar k
 
 `zypper search -si kernel-default`
 
-Sekarang kernel yang sedang digunakan adalah menjadi kernel terlama. Maka hapus semua kernel yang lebih lama:
+Sekarang kernel yang sedang digunakan menjadi kernel terlama. Maka hapus semua kernel yang lebih lama:
 
 `su -c "zypper remove kernel-default-<versi-kernel>"`
 
