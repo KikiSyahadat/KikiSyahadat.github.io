@@ -98,7 +98,7 @@ Ubah angka 1 dengan angka Snapshot dari *titik reset* terakhir jika Anda pernah 
 
 ### Lakukan *update*/*upgrade*
 
-Periksa jika opsi `Path where the caches are kept` kembali ke *default* (/var/cache/zypp). Jika kembali, ubah lagi dengan perintah seperti [di atas](#pindahkan-cache-zypp). Jika Anda menggunakan openSUSE Leap, [ubah kembali repositori ke versi tujuan *upgrade*](#unduh-semua-paket-update-upgrade). Karena setelah proses *factory reset* tadi, repositori akan berubah ke asal. Setelah selesai, jalankan proses *update*/*upgrade* tanpa opsi `--download-only`:
+Periksa jika opsi `Path where the caches are kept` kembali ke *default* (/var/cache/zypp). Jika kembali, ubah lagi dengan perintah seperti [di atas](#pindahkan-cache-zypp). Jika Anda menggunakan openSUSE Leap, [ubah kembali repositori ke versi tujuan *upgrade*](#unduh-semua-paket-updateupgrade). Karena setelah proses *factory reset* tadi, repositori akan berubah ke asal. Setelah selesai, jalankan proses *update*/*upgrade* tanpa opsi `--download-only`:
 
 `su -c "zypper dup"`
 
