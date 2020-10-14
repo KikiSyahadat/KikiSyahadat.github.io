@@ -108,7 +108,7 @@ Proses ini tidak akan mengunduh paket, karena semua paket sudah diunduh sebelumn
 
 Setelah selesai, jalankan ulang/*reboot* komputer.
 
-### Bersihkan kernel nama dan paket *sampah*
+### Bersihkan kernel lama dan paket *sampah*
 
 Setelah komputer dijalankan ulang, kita akan kembali ke mode CLI. Lihat daftar kernel yang terpasang:
 
