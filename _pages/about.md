@@ -36,7 +36,7 @@ Manusia tidak akan terlepas dari kesalahan. Terkadang kita mengucapkan atau mela
 
 Saya juga manusia, saya sering berucap atau berlaku salah. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Saya janji tidak akan menggerutu atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore.
 
-JANGAN TAKUT UNTUK MENGATAKAN SESUATU YANG BENAR WALAUPUN DENGAN RESIKO DIMUSUHI BANYAK ORANG KARENA APA YANG KITA KATAKAN TIDAK SESUAI DENGAN KEINGINAN ATAU HAWA NAFSU ORANG-ORANG TERTENTU.
+JANGAN TAKUT UNTUK MENGATAKAN SESUATU YANG BENAR MESKIPUN DENGAN RESIKO DIMUSUHI BANYAK ORANG KARENA KEBENARAN YANG KITA SAMPAIKAN TIDAK SESUAI DENGAN KEINGINAN ATAU HAWA NAFSU ORANG-ORANG TERTENTU. ALLAH MENGETAHUI APA YANG KITA UNGKAPKAN DAN APA YANG KITA SEMBUNYIKAN.
 
 ## Belikan saya kopi atau suvenir {#buy-me-coffee}
 
