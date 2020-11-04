@@ -13,6 +13,8 @@ Saudaraku tercinta dan teman seperjalanan dalam perjalanan menuju Akhirat, Hafiz
 
 *Dan berikanlah berita gembira kepada orang-orang yang sabar, (yaitu) orang-orang yang apabila ditimpa musibah, mereka mengucapkan: "Innaa lillahi wa inna ilaihi raaji'uun"* [Quran, 2: 155-6]
 
+<!--more-->
+
 Kematian anakmu, saudaraku, membuatku sedih, tetapi karena keputusan ada pada Allah, menerima keputusan-Nya dengan ikhlas adalah salah satu tiang dan tanda-tanda keimanan. Semoga Yang Maha Kuasa membuatmu mampu menjalaninya dalam *sabaran jamilan* (kesabaran yang indah), dan semoga Dia menjadikan anakmu yang mati sebagai perantara kesejahteraanmu di Akhirat. Sedangkan untukku, aku akan menggunakan kesempatan ini untuk melihat kembali lima butir pelipur lara bagi orang-orang beriman yang takut Allah seperti dirimu sendiri, dan memberi mereka kabar baik.
 
 *Butir pertama:* Yang dimaksud al-Quran sebagai *anak-anak muda yang tetap muda* [Quran, 56: 17], adalah ini:
