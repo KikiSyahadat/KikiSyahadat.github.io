@@ -5,6 +5,7 @@ tags:
 ---
 
 *Bismillah*
+
 *Tidak ada sesuatu pun yang tidak mengagungkan Asma-Nya dengan puji-pujian*
 
 Saudaraku tercinta dan teman seperjalanan dalam perjalanan menuju Akhirat, Hafiz Khalid Effendi,
