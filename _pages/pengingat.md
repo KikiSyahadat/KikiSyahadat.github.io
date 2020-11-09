@@ -33,7 +33,7 @@ Saudaraku tercinta dan teman seperjalanan dalam perjalanan menuju Akhirat, Hafiz
 
 *Bismillahirrahmanirrahim*
 
-*Dan berikanlah berita gembira kepada orang-orang yang sabar, (yaitu) orang-orang yang apabila ditimpa musibah, mereka mengucapkan: "Inna lillahi wa inna ilaihi raaji'uun" [Quran, 2: 155-6]
+*Dan berikanlah berita gembira kepada orang-orang yang sabar, (yaitu) orang-orang yang apabila ditimpa musibah, mereka mengucapkan: "Inna lillahi wa inna ilaihi raaji'uun" [Quran, 2: 155-6]*
 
 [Lanjutkan membaca ...]({{site.baseurl}}/2020/11/04/pelipur-lara-atas-meninggalnya-seorang-anak.html)
 
