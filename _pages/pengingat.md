@@ -13,8 +13,7 @@ title: Pengingat
 
 ---
 
-## [Rahmat dalam Kematian]({{site.baseurl}}/2020/08/05/rahmat-dalam-kematian.html)
-
+### [Rahmat dalam Kematian]({{site.baseurl}}/2020/08/05/rahmat-dalam-kematian.html)
 
 Diisyaratkan dalam ayat-ayat Quran misalnya, *Dia menjadikan mati dan hidup, supaya Dia menguji kamu, siapa di antara kamu yang lebih baik amalnya [Quran, 67: 2], bahwa* kematian itu sesuatu yang diciptakan seperti halnya kehidupan dan karenanya menjadi rahmat bagi makhluk hidup. Sementara itu, kelihatannya kematian adalah pembusukan (dekomposisi) dan sepertinya mematikan sinar kehidupan dan menyebabkan tubuh yang hidup membusuk. Kematian juga menghancurkan kesenangan. Kalau begitu, bagaimana bisa kematian menjadi rahmat bagi makhluk hidup?
 
@@ -22,8 +21,7 @@ Diisyaratkan dalam ayat-ayat Quran misalnya, *Dia menjadikan mati dan hidup, sup
 
 ---
 
-## [Pelipur Lara Atas Meninggalnya Seorang Anak]({{site.baseurl}}/2020/11/04/pelipur-lara-atas-meninggalnya-seorang-anak.html)
-
+### [Pelipur Lara Atas Meninggalnya Seorang Anak]({{site.baseurl}}/2020/11/04/pelipur-lara-atas-meninggalnya-seorang-anak.html)
 
 *Bismillah*
 
