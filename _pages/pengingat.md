@@ -9,7 +9,8 @@ title: Pengingat
 
 ---
 
-- [Video keberangkatan Fikri]({{site.baseurl}}/2020/11/04/keberangkatan.mp4) (19 MiB)
+- [Video keberangkatan Fikri]({{site.baseurl}}/2020/11/04/keberangkatan.mp4), 2 menit 29 detik, 19 MiB. (klik kanan -> save as/simpan sebagai untuk download)
+- [Video kepulangan Fikri]({{site.baseurl}}/2020/11/04/kepulangan.mp4), 5 menit 30 detik, 49,2 MiB. (klik kanan -> save as/simpan sebagai untuk download)
 
 ---
 
