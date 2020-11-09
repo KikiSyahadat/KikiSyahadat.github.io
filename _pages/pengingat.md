@@ -1,5 +1,5 @@
 ---
-layout: default/page
+layout: defaults/page
 permalink: pengingat.html
 narrow: true
 title: Pengingat
