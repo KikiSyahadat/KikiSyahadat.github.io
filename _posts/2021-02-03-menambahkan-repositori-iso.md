@@ -2,6 +2,7 @@
 title:  Menambahkan Repositori ISO
 tags:
   - Instalasi
+  - Panduan
   - Repository
 ---
 
