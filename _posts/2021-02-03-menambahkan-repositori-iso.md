@@ -35,7 +35,7 @@ Lalu tancapkan *Flashdisk*.
 
 Di terminal akan muncul di mana *Flashdisk* tersebut terpasang. Untuk keluar dari `dmesg`, tekan **Ctrl** dan **c** secara bersamaan.
 
-Setelah melakukan semua perintah di atas (dengan urutan dari perintah paling bawah ke atas), kita bisa mengatur prioritasnya atau dengan mematikan semua repositori *online* terlebih dahulu.
+Setelah melakukan semua perintah di atas (dengan urutan dari perintah paling bawah ke atas), kita bisa memasang paket dari *file* ISO dengan mengatur prioritasnya atau dengan mematikan semua repositori *online* terlebih dahulu.
 
 Untuk mengatur prioritas:
 
