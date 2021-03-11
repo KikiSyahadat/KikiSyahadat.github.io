@@ -31,5 +31,5 @@ Maka tanggal 1 Syawal 1442 H atau Hari Raya Idul Fitri sepertinya akan jatuh pad
 
 ### Sidang Isbat
 
-Untuk hasil pastinya kita tunggu hasil Sidang Isbat yang mungkin akan dilaksanakan pada tanggal 12 April 2021 untuk menentukan awal puasa Ramadhan dan tanggal 12 Mei 2021 untuk menentukan Hari Raya Idul Fitri.
+Untuk hasil pastinya kita tunggu hasil Sidang Isbat yang mungkin akan dilaksanakan pada tanggal 12 April 2021 untuk menentukan awal puasa Ramadhan dan tanggal 11 Mei 2021 untuk menentukan Hari Raya Idul Fitri.
 
