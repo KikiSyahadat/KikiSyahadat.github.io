@@ -27,7 +27,7 @@ Maka tanggal 1 Ramadhan 1442 H atau awal puasa sepertinya akan jatuh pada tangga
 
 Di kota Bandung, Bulan Baru/Ijtimak akan terjadi di tanggal 12 Mei 2021 sekitar pukul 2:00 WIB. Pada saat matahari terbenam, sekitar pukul 17:40 WIB, ketinggian bulan sekitar 5,6 derajat dengan sudut Elongasi sekitar 6,3 derajat.
 
-Maka tanggal 1 Syawal 1442 H atau Hari Raya Idul Fitri sepertinya akan jatuh pada tanggal 13 Mei 2021, dengan metode Hisab mana pun yang Anda gunakan.
+Maka tanggal 1 Syawal 1442 H atau Hari Raya Idul Fitri sepertinya akan jatuh pada tanggal 13 Mei 2021, dengan metode Hisab mana pun yang Anda gunakan. Sehingga kita akan berpuasa selama 30 hari.
 
 ### Sidang Isbat
 
