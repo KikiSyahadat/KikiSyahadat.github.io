@@ -15,5 +15,5 @@ Jika butuh panduan instalasi, Anda bisa coba [cara instalasi minimal ini]({{site
 
 Jika butuh dokumentasi untuk dipelajari, unduh [dari sini](https://doc.opensuse.org/){:target="_blank"}.
 
-Jika butuh orang untuk berkonsultasi, silakan bergabung dengan grup [openSUSE_ID](https://t.me/openSUSE_ID) di [Telegram](https://telegram.org){:target="_blank"} dan tanya-tanya di sana.
+Jika butuh orang untuk berkonsultasi, silakan bergabung dengan grup [@openSUSE_ID](https://t.me/openSUSE_ID) di [Telegram](https://telegram.org){:target="_blank"} dan bertanya di sana.
 
