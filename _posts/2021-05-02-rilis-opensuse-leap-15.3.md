@@ -11,8 +11,7 @@ openSUSE Leap 15.3 telah resmi dirilis, beritanya bisa dibaca [di sini](https://
 
 Anda yang ingin melakukan instalasi, file ISO bisa diunduh [di sini](https://get.opensuse.org/leap/){:target="_blank"}. Anda yang ingin melakukan *upgrade*, bisa membaca petunjuknya [di sini](https://en.opensuse.org/SDB:System_upgrade){:target="_blank"}. Jangan lupa untuk membaca [Release Notes](https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/){:target="_blank"} sebelum melakukan instalasi atau *upgrade*.
 
-<!--more-->
-
 Jika butuh panduan instalasi, Anda bisa coba [cara instalasi minimal ini]({{site.baseurl}}/2020/09/07/minimal-custom-install-kde.html).
 
 Jika butuh dokumentasi untuk dipelajari, unduh [dari sini](https://doc.opensuse.org/){:target="_blank"}.
+
