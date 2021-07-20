@@ -126,6 +126,6 @@ Dengan perhitungan di atas, dapat kita simpulkan:
 - 1 Dzulqa'dah 1443 Hijriyah jatuh pada tanggal 1 Juni 2022 dengan jumlah hari 29, kecuali jika Sidang Isbat memutuskan bulan Dzulhijjah jatuh pada tanggal 1 Juli, maka bulan Dzulqa'dah menjadi 30 hari.
 - 1 Dzulhijjah 1443 Hijriyah jatuh pada tanggal 30 Juni 2022 dengan jumlah hari 30, kecuali jika Sidang Isbat memutuskan bulan Dzulhijjah jatuh pada tanggal 1 Juli, maka bulan Dzulhijjah akan menjadi 29 hari.
   - Hari Raya Idul Adha, 9 atau 10 Juli 2022.
-  - Haul Bapak saya, 14 atau 15 Juli 2022 (15 Dzulhijjah).
+  - Haul ke-9 Bapak saya, 14 atau 15 Juli 2022 (15 Dzulhijjah).
 - Tahun baru 1444 Hijriyah akan jatuh pada tanggal 30 Juli 2022.
 
