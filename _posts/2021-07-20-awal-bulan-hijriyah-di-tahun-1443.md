@@ -114,7 +114,7 @@ Dengan perhitungan di atas, dapat kita simpulkan:
   - Maulid Nabi Muhammad SAW, 19 Oktober 2021.
   - Haul pertama salah satu keponakan saya, 24 Oktober 2021 (17 Rabiul Awal).
 - 1 Rabiul Akhir 1443 Hijriyah jatuh pada tanggal 6 November 2021 dengan jumlah hari 30.
-- 1 Jumadil Awal 1443 Hijriyah jatuh pada tanggal 6 Desember 2021 dengan jumlah hari 29, kecuali *Muhammadiyah*, 5 Desember 2021 dengan jumlah hari 30.
+- 1 Jumadil Awal 1443 Hijriyah jatuh pada tanggal 6 Desember 2021 dengan jumlah hari 29, kecuali *Muhammadiyah* 5 Desember 2021 dengan jumlah hari 30.
 - 1 Jumadil Akhir 1443 Hijriyah jatuh pada tanggal 4 Januari 2022 dengan jumlah hari 29.
 - 1 Rajab 1443 Hijriyah jatuh pada tanggal 2 Februari 2022 dengan jumlah hari 30.
   - Isra Mi'raj Nabi Muhammad SAW, 28 Februari 2022.
