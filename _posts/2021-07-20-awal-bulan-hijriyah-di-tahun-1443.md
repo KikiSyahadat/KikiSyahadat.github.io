@@ -22,7 +22,7 @@ Di kota Bandung, bulan baru awal Muharram 1443 Hijriyah akan terjadi pada tangga
 
 Dengan demikian, dengan sistem Hisab mana pun yang digunakan, baik *Wujudul Hilal* atau *Imkanur Rukyat*, tanggal 1 Muharram 1443 Hijriyah akan jatuh pada tanggal 10 Agustus 2021.
 
-Sebenarnya dengan posisi Hilal seperti ini kita tidak perlu melihat Hilal lagi di tanggal 9 Agustus, cukup genapkan saja bulan Dzulhijjah menjadi 30 hari. Akan tetapi jika kita ingin melakukan pemantauan Hilal pun tidak masalah, karena pasti akan terlihat, bahkan lebih jelas daripada biasanya. Kecuali jika langit mendung atau sebab lain yang membuat benda-benda langit tidak terlihat.
+Sebenarnya dengan posisi Hilal seperti ini kita tidak perlu melihat Hilal lagi di tanggal 9 Agustus, cukup genapkan saja bulan Dzulhijjah menjadi 30 hari. Akan tetapi jika kita ingin melakukan pemantauan Hilal pun tidak masalah, karena pasti akan terlihat, bahkan lebih jelas daripada biasanya. Kecuali jika langit mendung atau sebab lain yang membuat benda-benda langit tidak terlihat. Untuk apa manfaatnya? Ilmu.
 
 ### Safar
 
@@ -36,7 +36,7 @@ Bulan baru awal Rabiul Awal 1443 Hijriyah akan terjadi pada tanggal 6 Oktober 20
 
 Dengan demikian, dengan sistem Hisab mana pun yang digunakan, tanggal 1 Rabiul Awal 1443 Hijriyah akan jatuh pada tanggal 8 Oktober 2021.
 
-Sebenarnya dengan posisi Hilal seperti ini kita tidak perlu melihat Hilal lagi di tanggal 7 Oktober, cukup genapkan saja bulan Safar menjadi 30 hari. Akan tetapi jika kita ingin melakukan pemantauan Hilal pun tidak masalah, karena pasti akan terlihat, bahkan lebih jelas daripada biasanya. Kecuali jika langit mendung atau sebab lain yang membuat benda-benda langit tidak terlihat.
+Sebenarnya dengan posisi Hilal seperti ini kita tidak perlu melihat Hilal lagi di tanggal 7 Oktober, cukup genapkan saja bulan Safar menjadi 30 hari. Akan tetapi jika kita ingin melakukan pemantauan Hilal pun tidak masalah, karena pasti akan terlihat, bahkan lebih jelas daripada biasanya. Kecuali jika langit mendung atau sebab lain yang membuat benda-benda langit tidak terlihat. Untuk apa manfaatnya? Ilmu.
 
 ### Rabiul Akhir
 
@@ -88,7 +88,7 @@ Bulan baru awal Dzulqa'dah 1443 Hijriyah akan terjadi pada tanggal 30 Mei 2022 s
 
 Dengan hasil tersebut, dengan sistem Hisab mana pun yang digunakan, tanggal 1 Dzulqa'dah 1443 Hijriyah akan jatuh pada tanggal 1 Juni 2022.
 
-Sebenarnya dengan posisi Hilal seperti ini kita tidak perlu melihat Hilal lagi di tanggal 31 Mei, cukup genapkan saja bulan Syawal menjadi 30 hari. Akan tetapi jika kita ingin melakukan pemantauan Hilal pun tidak masalah, karena pasti akan terlihat, bahkan lebih jelas daripada biasanya. Kecuali jika langit mendung atau sebab lain yang membuat benda-benda langit tidak terlihat.
+Sebenarnya dengan posisi Hilal seperti ini kita tidak perlu melihat Hilal lagi di tanggal 31 Mei, cukup genapkan saja bulan Syawal menjadi 30 hari. Akan tetapi jika kita ingin melakukan pemantauan Hilal pun tidak masalah, karena pasti akan terlihat, bahkan lebih jelas daripada biasanya. Kecuali jika langit mendung atau sebab lain yang membuat benda-benda langit tidak terlihat. Untuk apa manfaatnya? Ilmu.
 
 ### Dzulhijjah
 
