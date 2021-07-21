@@ -7,7 +7,8 @@
 - title: Tulisan
   href: list/posts.html
 
-- title: Projek
-  href: list/projects.html
+#- title: Projek
+#  href: list/projects.html
 
-
+- title: Pengingat
+  href: pengingat.html
