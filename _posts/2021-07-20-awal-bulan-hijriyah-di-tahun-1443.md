@@ -10,7 +10,7 @@ tags:
   - Ramadhan
 ---
 
-Selamat Hari Raya Idul Adha 1442 Hijriyah bagi semua umat Islam di mana saja berada, khususnya di Indonesia yang sedang menjalankan PPKM Darurat/*lockdown*. Semoga ke depan umat Islam semakin banyak yang lebih pintar dalam segala bidang ilmu pengetahuan. Sehingga kita, umat Islam, bisa mengatur ibadah kita sendiri, supaya peraturan yang dibuat tidak melanggar Syariat, tidak bertentangan dengan aturan agama.
+Selamat Hari Raya Idul Adha 1442 Hijriyah bagi semua umat Islam di mana saja berada, khususnya di Indonesia yang sedang menjalankan PPKM Darurat/*lockdown*. Semoga ke depan umat Islam semakin banyak yang lebih pandai dalam segala bidang ilmu pengetahuan. Sehingga kita, umat Islam, bisa mengatur ibadah kita sendiri, supaya peraturan yang dibuat tidak melanggar Syariat, tidak bertentangan dengan aturan agama.
 
 Sekarang mari kita menghitung tanggal 1 dari setiap bulan Hijriyah di tahun 1443 yang sebentar lagi akan kita jelang.
 
