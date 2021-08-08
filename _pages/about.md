@@ -40,7 +40,7 @@ Saya juga manusia yang sering kali berucap/berlaku salah. Saya akan sangat berte
 
 Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi, suvenir atau apa pun yang Anda mau. Anda bisa mengirimkannya melalui akun **DANA** atau **OVO**:
 
-![DANA](theme/img/dana.webp) ![OVO](theme/img/ovo.webp)
+![DANA](2020/07/22/dana.webp) ![OVO](2020/07/22/ovo.webp)
 
 Atau melalui rekening Bank BTPN Cabang Kota Kasablanka (kode bank: 213) dengan Nomor Rekening 90013531015 atau Bank BRI Unit Purbasari (kode bank: 002) dengan Nomor Rekening 3292-01-028340-53-9.
 
