@@ -72,7 +72,7 @@ Dengan demikian, dengan sistem Hisab mana pun yang digunakan, tanggal 1 Sya'ban 
 
 Bulan baru awal Ramadhan 1443 Hijriyah akan terjadi pada tanggal 1 April 2022 sekitar pukul 13:25 WIB. Saat Matahari terbenam di sore hari pukul 17:54 WIB, posisi Hilal berada di atas ufuk dengan ketinggian sekitar 2,35 derajat dan sudut elongasi sekitar 3,14 derajat.
 
-Bagi Anda yang menggunakan sistem Hisab *Wujudul Hilal*, tanggal 1 Ramadhan 1443 Hijriyah akan jatuh pada tanggal 2 April 2022. Sedangkan Anda yang menggunakan sistem Hisab *Imkanur Rukyat*, jika hanya menggunakan metode Hisab, tanggal 1 Ramadhan 1443 Hijriyah juga akan jatuh pada tanggal 2 April 2022. Tetapi dengan posisi Hilal yang sangat tipis seperti ini semestinya disempurnakan dengan metode Rukyat.
+Bagi Anda yang menggunakan sistem Hisab *Wujudul Hilal*, tanggal 1 Ramadhan 1443 Hijriyah akan jatuh pada tanggal 2 April 2022. Sedangkan Anda yang menggunakan sistem Hisab *Imkanur Rukyat*, jika hanya menggunakan metode Hisab, tanggal 1 Ramadhan 1443 Hijriyah juga akan jatuh pada tanggal 2 April 2022. Tetapi dengan posisi Hilal yang sangat tipis seperti ini idealnya disempurnakan dengan metode Rukyat.
 
 Kabar baiknya, di setiap penentuan awal bulan Ramadhan pemerintah selalu mengadakan Sidang Isbat yang diawali dengan proses Rukyatul Hilal. Sehingga kita tinggal menunggu hasilnya saja.
 
@@ -94,7 +94,7 @@ Sebenarnya dengan posisi Hilal seperti ini kita tidak perlu melihat Hilal lagi d
 
 Bulan baru awal Dzulhijjah 1443 Hijriyah akan terjadi pada tanggal 29 Juni 2022 sekitar pukul 9:53 WIB. Saat Matahari terbenam di sore hari pukul 17:44 WIB, posisi Hilal berada di atas ufuk dengan ketinggian sekitar 2,1 derajat dan sudut elongasi sekitar 4,78 derajat.
 
-Bagi Anda yang menggunakan sistem Hisab *Wujudul Hilal*, tanggal 1 Dzulhijjah 1443 Hijriyah akan jatuh pada tanggal 30 Juni 2022. Sedangkan Anda yang menggunakan sistem Hisab *Imkanur Rukyat*, jika hanya menggunakan metode Hisab, tanggal 1 Dzulhijjah 1443 Hijriyah juga akan jatuh pada tanggal 30 Juni 2022. Tetapi dengan posisi Hilal yang sangat tipis seperti ini semestinya disempurnakan dengan metode Rukyat.
+Bagi Anda yang menggunakan sistem Hisab *Wujudul Hilal*, tanggal 1 Dzulhijjah 1443 Hijriyah akan jatuh pada tanggal 30 Juni 2022. Sedangkan Anda yang menggunakan sistem Hisab *Imkanur Rukyat*, jika hanya menggunakan metode Hisab, tanggal 1 Dzulhijjah 1443 Hijriyah juga akan jatuh pada tanggal 30 Juni 2022. Tetapi dengan posisi Hilal yang sangat tipis seperti ini idealnya disempurnakan dengan metode Rukyat.
 
 Kabar baiknya, di setiap penentuan awal bulan Dzulhijjah pemerintah selalu mengadakan Sidang Isbat yang diawali dengan proses Rukyatul Hilal. Sehingga kita tinggal menunggu hasilnya saja.
 
