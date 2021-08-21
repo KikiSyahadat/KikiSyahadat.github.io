@@ -20,7 +20,7 @@ Jika ingin berlangganan blog ini menggunakan RSS Reader, [kikisyahadat.github.io
 ## Linux dan openSUSE
 
 - 2007 saya pertama kali membeli komputer dengan sistem operasi Windows XP.
-- 2008 saya mengganti Windows XP dengan Mandriva karena pertimbangan Windows XP yang saya gunakan saat itu ilegal (baca: bajakan). Ini berbahaya karena sama dengan menggunakan sesuatu yang kita tidak memiliki hak untuk menggunakannya. Dan menurut agama pun dilarang. Kemudian kita bekerja dengan menggunakan barang tersebut, lalu gaji/penghasilannya dibelikan makanan. Apalagi bagi Anda yang sudah berkeluarga, karena Anda memberi makan anak istri dengan makanan yang seperti itu.
+- 2008 saya mengganti Windows XP dengan Mandriva karena pertimbangan Windows XP yang saya gunakan saat itu ilegal (baca: bajakan), karena sama saja dengan menggunakan sesuatu yang kita tidak memiliki hak atau tidak diizinkan untuk menggunakannya. Dan menurut agama pun dilarang. Kemudian kita bekerja dengan menggunakan barang tersebut, lalu gaji/penghasilannya dibelikan makanan. Apalagi bagi Anda yang sudah berkeluarga, karena Anda memberi makan anak istri dengan makanan yang seperti itu.
 - 2011 saya mengganti Mandriva dengan distro saat itu baru lahir karena pertimbangan bahwa Mandriva saat itu sudah mulai terlihat kolaps secara keuangan yang membuat banyak kontributornya keluar/dikeluarkan.
 - 2015 saya menggantinya lagi dengan openSUSE yang masih tetap saya gunakan sampai sekarang. Alasannya karena saat itu ada pernyataan dari salah satu pengembang distro tersebut di media sosial yang membuat saya sebagai seorang muslim merasa tersinggung.
 
