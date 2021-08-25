@@ -2,6 +2,7 @@
 title:  Tumbleweed update bulan ini, Agustus 2021
 tags:
   - openSUSE
+  - Troubleshooting
   - Tumbleweed
   - Update
 ---
