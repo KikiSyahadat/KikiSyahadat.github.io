@@ -6,7 +6,7 @@ tags:
   - Update
 ---
 
-*Update* sebelumnya saya lakukan pada tanggal 23 Agustus 2021, 4 minggu yang lalu di *Snapshot* **20210817**. Dan *update* hari ini saya mendapatkan *Snapshot* **20210916**. Total paket yang diperbarui adalah 424 paket di-*upgrade*, 12 paket baru dan 10 paket dihapus, dengan total ukuran *download* sebesar **470,1 MiB**.
+*Update* sebelumnya saya lakukan pada tanggal 23 Agustus 2021, 4 minggu yang lalu, di *Snapshot* **20210817**. Dan *update* hari ini saya mendapatkan *Snapshot* **20210916**. Total paket yang diperbarui adalah 424 paket di-*upgrade*, 12 paket baru dan 10 paket dihapus, dengan total ukuran *download* sebesar **470,1 MiB**.
 
 <!--more-->
 
