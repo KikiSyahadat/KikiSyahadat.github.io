@@ -19,6 +19,8 @@ Lalu ketika saya menambahkan *layout* *keyboard* di pengaturan **System Settings
 
 Dan yang lebih penting adalah ketika saya mencoba menghubungkan laptop dengan monitor eksternal, saya tidak bisa mengaktifkannya. Padahal di hari Senin malam (malam Selasa) saya diminta oleh kakak saya untuk melakukan [*live streaming* haul pertama anaknya (keponakan saya)](https://www.youtube.com/watch?v=WhtnWcEUg5Q){:target="_blank"}. Dan fitur ini akan sangat dibutuhkan saat itu.
 
+Dan yang terakhir adalah **Global Menu** juga tidak bisa diaktifkan.
+
 Akhirnya saya membatalkan *factory reset* saat itu untuk kemudian dicari akar masalahnya setelah urusan saya selesai.
 
 Setelah saya cari tahu, ternyata masalahnya adalah paket `gsettings-desktop-schemas` yang hilang. Setelah paket tersebut dipasang, semua kembali normal. Dan saya bisa melakukan *factory reset* di bulan ini.
