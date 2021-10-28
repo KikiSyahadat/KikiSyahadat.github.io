@@ -17,7 +17,7 @@ Lalu di pengaturan **System Settings** >> **Startup and Shutdown** >> **Backgrou
 
 Lalu ketika saya menambahkan *layout* *keyboard* di pengaturan **System Settings** >> **Input Device** >> **Keyboard** >> **Layout** tidak membuat indikator *keyboard* otomatis muncul di **System Tray**. Bahkan ketika saya mencoba mengubah *layout* dengan *shortcut* pun tidak membuat *layout* berubah.
 
-Dan yang lebih penting adalah ketika saya mencoba menghubungkan laptop dengan monitor eksternal, saya tidak bisa mengaktifkannya. Padahal di hari Senin malam (malam Selasa) saya diminta oleh kakak saya untuk melakukan [*live streaming* haul pertama anaknya (keponakan saya)](https://www.youtube.com/watch?v=WhtnWcEUg5Q){:target="_blank"}. Dan fitur ini akan sangat dibutuhkan saat itu.
+Dan yang lebih penting adalah ketika saya mencoba menghubungkan laptop dengan monitor eksternal, saya tidak bisa mengaktifkannya. Padahal di hari Senin malam (malam Selasa) saya diminta oleh kakak saya untuk melakukan [*live streaming* haul pertama anaknya (keponakan saya)](https://www.youtube.com/watch?v=WhtnWcEUg5Q){:target="_blank"}, walau pun biasanya operator *live streaming* di sana bukan saya. Dan fitur ini akan sangat dibutuhkan di saat itu.
 
 Dan yang terakhir adalah **Global Menu** juga tidak bisa diaktifkan.
 
