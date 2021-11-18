@@ -4,7 +4,7 @@ tags:
   - Unek-unek
 ---
 
-Alkisah, pada suatu masa, saya pernah bekerja di sebuah yayasan pendidikan di dekat tempat tinggal saya. Pada saat akan keluar dari pekerjaan saya di sana, saya mengatakan bahwa saya akan kembali lagi ke sana, tapi dengan syarat tertentu.
+Alkisah, pada suatu masa, saya pernah bekerja di sebuah yayasan di dekat tempat tinggal saya. Pada saat akan keluar dari pekerjaan saya di sana, saya mengatakan bahwa saya akan kembali lagi ke sana, tapi dengan syarat tertentu.
 
 <!--more-->
 
