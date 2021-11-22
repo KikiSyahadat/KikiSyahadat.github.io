@@ -12,7 +12,7 @@ tags:
 
 Di antara *update* sebelumnya ke *update* kali ini saya memasang paket `phonon4qt5-backend-vlc` supaya bisa memainkan video di **Gwenview** dan panel informasi **Dolphin**. Juga karena *update* sebelumnya saya melakukan *factory reset*, saya juga menghapus paket-paket yang sudah tidak diperlukan lagi oleh sistem.
 
-Untuk melihat paket apa saja yang sudah tidak diperlukan oleh sistem dan/atau sudah tidak ada lagi di repositori, kita bisa menjalankan perintah `zypper packages --unneeded --orphaned`. Lalu menghapus paket-paket tersebut dengan perintah `su -c "zypper remove nama-paket`.
+Untuk melihat paket apa saja yang sudah tidak diperlukan oleh sistem dan/atau sudah tidak ada lagi di repositori, kita bisa menjalankan perintah `zypper packages --unneeded --orphaned`. Lalu menghapus paket-paket tersebut dengan perintah `su -c "zypper remove nama-paket"`.
 
 Dan berikut adalah rincian dari *update* kali ini:
 
