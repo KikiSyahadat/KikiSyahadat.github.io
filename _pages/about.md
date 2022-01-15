@@ -36,13 +36,3 @@ Manusia tidak akan terlepas dari kesalahan. Terkadang kita mengucapkan/melakukan
 
 Saya juga manusia yang sering kali berucap/berlaku salah. Saya akan sangat berterima kasih jika ada orang yang mengoreksi kesalahan saya. Insya Allah saya tidak akan menggerutu atau mengadu kepada orang lain untuk minta dibela, walaupun koreksi datang dari anak kemarin sore. Dan saya tidak akan merasa dihina karenanya.
 
-## Belikan saya kopi atau suvenir {#buy-me-coffee}
-
-Jika Anda merasa terbantu dengan tulisan-tulisan saya, Anda boleh membelikan saya kopi, suvenir atau apa pun yang Anda mau. Anda bisa mengirimkannya melalui akun **DANA** atau **OVO**:
-
-![DANA](2020/07/22/dana.webp) ![OVO](2020/07/22/ovo.webp)
-
-Atau melalui rekening Bank BTPN Cabang Kota Kasablanka (kode bank: 213) dengan Nomor Rekening 90013531015 atau Bank BRI Unit Purbasari (kode bank: 002) dengan Nomor Rekening 3292-01-028340-53-9.
-
-Atau Anda bisa menghubungi saya melalui [Telegram](https://t.me/KikiSyahadat).
-
