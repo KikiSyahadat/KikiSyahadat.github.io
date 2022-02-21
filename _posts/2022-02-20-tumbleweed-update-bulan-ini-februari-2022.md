@@ -12,7 +12,9 @@ tags:
 
 Di antara *update* sebelumnya dengan *update* kali ini saya menghapus paket `chromium` dan `virtualbox`.
 
-Berikut adalah rincian *update* kali ini:
+Juga sebelum melakuan *update* kali ini saya melakukan *factory reset* dan menghapus semua paket *orphaned* dan *unneeded* setelah proses *update* selesai.
+
+Dan berikut adalah rincian *update* kali ini:
 
 ```
 Loading repository data...
