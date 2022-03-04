@@ -26,5 +26,5 @@ Kesimpulan dari tulisan tersebut adalah:
 - Jika Sidang Isbat menentukan tanggal 1 Ramadhan jatuh pada tanggal 2 April, maka kita akan berpuasa selama 30 hari.
 - Jika Sidang Isbat menentukan tanggal 1 Ramadhan jatuh pada tanggal 3 April, maka kita akan berpuasa selama 29 hari.
 
-Jadi kita tunggu Sidang Isbat yang akan diselenggarakan oleh pemerintah pada tanggal 1 April 2022 untuk menentukan awal bulan Ramadhan dan tanggal 1 Mei 2022 untuk menentukan Hari Raya Idul Fitri.
+Jadi kita tunggu Sidang Isbat yang akan diselenggarakan oleh pemerintah pada tanggal 1 April 2022 untuk menentukan awal bulan Ramadhan dan tanggal 30 April atau 1 Mei 2022 (tergantung kapan tanggal 1 Ramadhan) untuk menentukan Hari Raya Idul Fitri.
 
