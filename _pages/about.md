@@ -13,7 +13,7 @@ Blog ini dibuat untuk menyambung blog sebelumnya yang berada di **Blogger/Blogsp
 
 Jika ada yang ingin menyumbang laptop baru untuk saya akan saya terima dengan senang hati, mengingat laptop ini sudah cukup tua. :grin:
 
-Blog ini tidak menyediakan kolom komentar. Jadi jika Anda ingin mengomentari sesuatu, *chat* saya di [Telegram](https://t.me/KikiSyahadat).
+Blog ini tidak menyediakan kolom komentar. Jadi jika Anda ingin mengomentari sesuatu, *chat* saya di [Telegram](https://telegram.org/){:target="_blank"}. Anda bisa menemukan saya di grup [openSUSE_ID](https://t.me/openSUSE_ID){:target="_blank}.
 
 Jika ingin berlangganan blog ini menggunakan RSS Reader, [kikisyahadat.github.io/feed.xml]({{site.baseurl}}/feed.xml).
 
