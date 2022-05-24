@@ -1,3 +1,7 @@
+- caption: RSS Feed
+  href: https://kikisyahadat.github.io/feed.xml
+  icon: entypo/rss.svg
+
 - caption: openSUSE
   href: https://www.opensuse.org
   icon: entypo/network.svg
