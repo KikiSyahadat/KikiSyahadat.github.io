@@ -6,7 +6,7 @@ tags:
   - Update
 ---
 
-*Update* sebelumnya saya lakukan pada tanggal 22 Mei 2022, 4 pekan lalu si *Snapshot* **20220520**. Dan di *update* kali ini saya mendapatkan *Snapshot* **20220616**. Total paket yang diperbarui adalah: 941 paket *upgrade*, 22 paket baru dan 5 paket dihapus, dengan total ukuran *download* sebesar **729,2 MiB**.
+*Update* sebelumnya saya lakukan pada tanggal 22 Mei 2022, 4 pekan lalu di *Snapshot* **20220520**. Dan di *update* kali ini saya mendapatkan *Snapshot* **20220616**. Total paket yang diperbarui adalah: 941 paket *upgrade*, 22 paket baru dan 5 paket dihapus, dengan total ukuran *download* sebesar **729,2 MiB**.
 
 <!--more-->
 
