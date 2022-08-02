@@ -5,7 +5,7 @@ narrow: true
 title: Pengingat
 ---
 
-![1434/2013]({{site.baseurl}}/2020/11/04/bapa-aki.webp) ![1436/2015]({{site.baseurl}}/2020/11/04/wa-iya.webp) ![1439/2018]({{site.baseurl}}/2020/11/04/ma-nini.webp) ![1442/2020]({{site.baseurl}}/2020/11/04/aa-fikri.webp)
+![1434/2013]({{site.baseurl}}/2020/11/04/bapa-aki.webp) ![1436/2015]({{site.baseurl}}/2020/11/04/wa-iya.webp) ![1439/2018]({{site.baseurl}}/2020/11/04/ma-nini.webp) ![1442/2020]({{site.baseurl}}/2020/11/04/aa-fikri.webp) ![1444/2022]({{site.baseurl}}/2020/11/04/nail.webp)
 
 ---
 
