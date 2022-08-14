@@ -11,6 +11,7 @@ title: Pengingat
 
 - [Video keberangkatan Fikri]({{site.baseurl}}/2020/11/04/keberangkatan.mp4), 2 menit 29 detik, 19 MiB. (**klik kanan** -> **save as**/**simpan sebagai** untuk download)
 - [Video kepulangan Fikri]({{site.baseurl}}/2020/11/04/kepulangan.mp4), 5 menit 30 detik, 42,2 MiB. (**klik kanan** -> **save as**/**simpan sebagai** untuk download)
+- [Sholawat Busyro - Naila]({{site.baseurl}}/2022/08/04/sholawat-nail), 44 detik, 690,0 KiB (**klik kanan** -> **save as**/**simpan sebagai** untuk download)
 
 ---
 
