@@ -48,3 +48,7 @@ Continue? [y/n/v/...? shows all options] (y):
 
 Jadwal *update* berikutnya adalah sekitar tanggal 16 Oktober 2022, 4 pekan dari sekarang.
 
+---
+
+**Update:** Setelah proses *update* selesai dan saya *reboot* komputer, ternyata semua software yang membutuhkan `gsettings-schemas` tidak mau jalan walaupun paket tersebut terpasang. Sehingga saya melakukan *rollback* ke *Snapshot* sebelumnya.
+
