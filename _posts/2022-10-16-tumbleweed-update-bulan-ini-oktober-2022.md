@@ -4,6 +4,7 @@ tags:
   - openSUSE
   - Tumbleweed
   - Update
+  - Vulkan
 ---
 
 *Update* sebelumnya saya lakukan pada tanggal 21 Agustus 2022, 8 pekan lalu, di *Snapshot* **20220819**, karena pada usaha *update* bulan September gagal dan saya melakukan *rollback*. Dan di *update* kali ini saya mendapatkan *Snapshot* **20221014**. Total paket yang diperbarui adalah: 920 paket *upgrade*, 12 paket baru dan 4 paket dihapus, dengan total ukuran *download* sebesar **714,8 MiB**.
@@ -12,7 +13,7 @@ tags:
 
 Sebelum melakukan *update* saya melakukan *factory reset* dan setelahnya saya menghapus paket-paket tak terpakai dengan `zypper packages --unneeded` untuk mencari nama-nama paket tersebut, lalu `su -c "zypper remove nama-paket"` untuk menghapusnya.
 
-Saya juga memasang paket-paket rekomendasi baru dengan `su -c "zypper inr"`.
+Saya juga memasang paket-paket rekomendasi baru dengan `su -c "zypper inr"` yang ternyata membawa paket-paket untuk mengaktifkan **Vulkan** dan juga firmware **Bluetooth** yang akhirnya membuat saya memasang kembali paket `bluedevil5`. Untuk mencoba apakah **Vulkan** berjalan di komputer kita, jalankan perintah `vkcube`.
 
 Terakhir saya memasang **Firefox** dan **Thunderbird** dengan `su -c "zypper install MozillaFirefox MozillaThunderbird"`, karena sebelumnya saya menggunakan versi yang saya *download* langsung dari website masing-masing.
 
