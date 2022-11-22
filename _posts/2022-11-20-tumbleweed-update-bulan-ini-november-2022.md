@@ -47,3 +47,7 @@ Continue? [y/n/v/...? shows all options] (y):
 
 Jadwal *update* berikutnya adalah sekitar tanggal 18 Desember 2022, 4 pekan dari sekarang.
 
+---
+
+**Update 22 November 2022**: Masalah pada *layout keyboard* ternyata hanya perlu menghapus dan menambahkan ulang saja di **System Settings** > **Input Devices** > **Keyboard** > **Layout** > **Configure layouts**.
+
